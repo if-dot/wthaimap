@@ -22,6 +22,7 @@ export default function SiteFooter() {
             <li><Link href="/phuket/strains/">Strains on menus</Link></li>
             <li><Link href="/phuket/mushrooms/">Mushrooms: law &amp; risks</Link></li>
             <li><Link href="/phuket/first-time/">First time in Thailand</Link></li>
+            <li><Link href="/phuket/what-to-buy/">What to buy, how much, where (2-minute quiz)</Link></li>
             <li><Link href="/thailand/is-weed-legal/">Is weed legal in Thailand?</Link></li>
           </ul>
         </div>

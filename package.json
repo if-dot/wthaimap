@@ -4,9 +4,9 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build && node scripts/check-index.mjs",
+    "build": "next build && node scripts/check-index.mjs && node scripts/check-carcass.mjs",
     "start": "next start",
-    "check": "node scripts/check-index.mjs",
+    "check": "node scripts/check-index.mjs && node scripts/check-carcass.mjs",
     "indexnow": "node scripts/indexnow.mjs"
   },
   "dependencies": {

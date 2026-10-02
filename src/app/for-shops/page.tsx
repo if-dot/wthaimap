@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { meta } from "@/lib/seo";
 import Link from "next/link";
+import CorrectionForm from "@/components/CorrectionForm";
 export const metadata: Metadata = meta("/for-shops/", { title: "For shops: fix your listing", description: "Correct hours, address or published prices on BudMap. No paid placement; scores cannot be bought or edited." });
 export default function Page() {
   return (
@@ -17,8 +18,9 @@ export default function Page() {
       </ul>
       <h2>What we will not change</h2>
       <p>Scores, quotes, or the order of any list. If a quote is not from a review of your shop, show us and we remove it.</p>
-      <h2>How</h2>
-      <p>Email <b>{process.env.NEXT_PUBLIC_CONTACT_EMAIL || "the address shown in the footer"}</b> with the shop name and area, or the link to your page here. We reply within a week. <Link href="/how-we-score/">How we score.</Link></p>
+      <h2>Send a correction</h2>
+      <p>Fill this in and it goes to us by email with everything we need; we reply within a week and the fix lands in the next snapshot with the date. Nothing here changes a score. <Link href="/how-we-score/">How we score.</Link></p>
+      <CorrectionForm />
     </main>
   );
 }

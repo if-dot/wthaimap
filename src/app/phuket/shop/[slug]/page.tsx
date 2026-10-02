@@ -55,7 +55,7 @@ export default async function Page({ params }: { params: Promise<{ slug: string 
           <p style={{ fontSize: 12, color: "var(--muted)", margin: "8px 0 0" }}>Scores change with each review snapshot; the page is the source of truth. Placement cannot be bought.</p>
         </section>
       )}
-      <p className="note" style={{ marginTop: 18 }}>Own or run this shop? Hours, prices or menu wrong? <Link href="/for-shops/">Send a correction</Link>. We do not sell placement and we do not change scores by request; we fix facts.</p>
+      <p className="note" style={{ marginTop: 18 }}>Own or run this shop? Hours, prices or menu wrong? <Link href={`/for-shops/?shop=${encodeURIComponent(s.name + ", " + s.area)}`}>Send a correction</Link>. We do not sell placement and we do not change scores by request; we fix facts.</p>
     </main>
   );
 }

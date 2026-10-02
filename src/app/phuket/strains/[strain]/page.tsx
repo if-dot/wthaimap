@@ -8,7 +8,7 @@ const multi = () => strainIndex().filter((x) => x.entries.length > 1);
 export function generateStaticParams() { return multi().map((x) => ({ strain: x.slug })); }
 export async function generateMetadata({ params }: { params: Promise<{ strain: string }> }): Promise<Metadata> {
   const { strain } = await params; const x = multi().find((s) => s.slug === strain); if (!x) return {};
-  return meta(`/phuket/strains/${x.slug}/`, { title: `${x.name} in Phuket: where to buy and price per gram`, description: `${x.name} is on ${x.entries.length} published Phuket menus, from ฿${x.entries[0].price}/g. Shops, prices, dates and what reviewers say about each.`, index: x.entries.length > 1 });
+  return meta(`/phuket/strains/${x.slug}/`, { title: `${x.name} in Phuket: where to buy and price per gram`, description: `${x.name} is on ${x.entries.length} published Phuket menus, from ฿${x.entries[0].price}/g. Shops, prices, dates and what reviewers say about each.`, index: false });
 }
 export default async function Page({ params }: { params: Promise<{ strain: string }> }) {
   const { strain } = await params; const x = multi().find((s) => s.slug === strain); if (!x) notFound();

@@ -32,7 +32,7 @@ export default function Page() {
         <h2>What gets tourists arrested</h2>
         <p>Taking cannabis to the airport. Not just international flights: domestic flights have spot checks too, and hundreds of British, Indian and other travellers have been arrested at home with Thai cannabis in their luggage. Finish it or leave it. Buying from a beach seller or a tuk-tuk contact rather than a licensed shop, and buying mushrooms, which are a Category 5 narcotic with real prison time and are nothing like the weed situation.</p>
         <h2>Which door</h2>
-        <p>Below are the shops that score highest for first-timers: reviews that mention a first time, staff who explained and advised, no pushiness and no overcharge complaints. Or open the <Link href="/phuket/map/?take=beginner">map</Link> and let it sort by distance.</p>
+        <p>Below are the shops that score highest for first-timers: reviews that mention a first time, staff who explained and advised, no pushiness and no overcharge complaints. Or open the <Link href="/phuket/map/?take=beginner">map</Link> and let it sort by distance, or answer <Link href="/phuket/what-to-buy/">four questions</Link> and get a dose, a product and three doors.</p>
       </section>
       <div className="rows" style={{ marginTop: 10 }}>{top.map((s, i) => <RankedRow key={s.id} s={s} i={i} take="beginner" />)}</div>
       <p style={{ marginTop: 10 }}><Link href="/phuket/best/beginner/">Full first-timer ranking →</Link></p>

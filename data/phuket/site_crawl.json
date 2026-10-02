@@ -1,0 +1,1712 @@
+[
+{
+"id": "ChIJi_CxlH07UDARXl-ZHQWtcVM",
+"site": "http://www.beazyofficial.com/",
+"pages": [
+"https://beazyofficial.com/"
+],
+"prices": [],
+"doctor": [],
+"doctor_fee": null,
+"features": {},
+"error": null
+},
+{
+"id": "ChIJK5l5mOo7UDARpepJbnm_7DM",
+"site": "https://thaigreenlab.net/our-stores/green-lab-nanai/",
+"pages": [
+"https://thaigreenlab.net/our-stores/green-lab-nanai/"
+],
+"prices": [],
+"doctor": [],
+"doctor_fee": null,
+"features": {},
+"error": null
+},
+{
+"id": "ChIJleOjhC0xUDARo67M1tnQh40",
+"site": "https://hazermates.com/",
+"pages": [
+"https://hazermates.com/"
+],
+"prices": [],
+"doctor": [],
+"doctor_fee": null,
+"features": {},
+"error": null
+},
+{
+"id": "ChIJaXKjqkg7UDARWqNfP4L437o",
+"site": "https://www.greenheadclinic.com/",
+"pages": [
+"https://www.greenheadclinic.com/",
+"https://www.greenheadclinic.com/about-us.php"
+],
+"prices": [],
+"doctor": [
+"Consultation Explore Our Services Abis Solutions WELCOME TO Greenhead Greenhead provides comprehensive cannabis and hemp solutions under one trusted bra",
+"medical consultation, premium cannabis products, business consulting, export services, or cultivation partnerships, our experienced team is here to support"
+],
+"doctor_fee": null,
+"features": {},
+"error": null
+},
+{
+"id": "ChIJkUuGOUQ5UDARsG24pVLqoDQ",
+"site": "http://www.mrweedphuket.com/",
+"pages": [
+"https://mrweedphuket.com/"
+],
+"prices": [],
+"doctor": [],
+"doctor_fee": null,
+"features": {
+"lounge_smoking_area": " Conditions Privacy Policy Welcome to Mr. Weed Phuket Chill Lounge Our chill lounge is the perfect place to kick back and rela",
+"edibles": "s Our Selection Mr.Weed offer premium flowers, brownies and cookies and much more! Flowers 100% Organic Premium Flowers View Mo"
+},
+"error": null
+},
+{
+"id": "ChIJL1R6KwAxUDARd1c-p_4mg5w",
+"site": "http://www.cannsupreme.com/",
+"pages": [],
+"prices": [],
+"doctor": [],
+"doctor_fee": null,
+"features": {},
+"error": "<urlopen error [Errno -2] Name or service not known>"
+},
+{
+"id": "ChIJwxotTFIvUDARlhlPWoM4EbA",
+"site": "https://kingcannabis.store/",
+"pages": [],
+"prices": [],
+"doctor": [],
+"doctor_fee": null,
+"features": {},
+"error": "HTTP Error 402: Payment Required"
+},
+{
+"id": "ChIJo-SONQUlUDARsxn39FEA_KE",
+"site": "https://www.greengardenkata.com/",
+"pages": [
+"https://www.greengardenkata.com/",
+"https://www.greengardenkata.com/menu/index.html"
+],
+"prices": [
+{
+"source_url": "https://www.greengardenkata.com/menu/index.html",
+"date": "2026-10-02",
+"value_thb": 180,
+"unit": "g",
+"strain_or_tier": "own Sativa · Medical flower Astro Diesel",
+"note": "shop site, per gram (auto)"
+},
+{
+"source_url": "https://www.greengardenkata.com/menu/index.html",
+"date": "2026-10-02",
+"value_thb": 150,
+"unit": "g",
+"strain_or_tier": " 1G Sativa · Medical flower King Juice S",
+"note": "shop site, per gram (auto)"
+},
+{
+"source_url": "https://www.greengardenkata.com/menu/index.html",
+"date": "2026-10-02",
+"value_thb": 200,
+"unit": "g",
+"strain_or_tier": " 1G Sativa · Medical flower King Juice M",
+"note": "shop site, per gram (auto)"
+},
+{
+"source_url": "https://www.greengardenkata.com/menu/index.html",
+"date": "2026-10-02",
+"value_thb": 150,
+"unit": "g",
+"strain_or_tier": " 1G Sativa · Medical flower Lemon Gelato",
+"note": "shop site, per gram (auto)"
+},
+{
+"source_url": "https://www.greengardenkata.com/menu/index.html",
+"date": "2026-10-02",
+"value_thb": 150,
+"unit": "g",
+"strain_or_tier": "ER 1G Sativa · Medical flower Mango Haze",
+"note": "shop site, per gram (auto)"
+},
+{
+"source_url": "https://www.greengardenkata.com/menu/index.html",
+"date": "2026-10-02",
+"value_thb": 150,
+"unit": "g",
+"strain_or_tier": "Sativa · Medical flower Strawberry Cough",
+"note": "shop site, per gram (auto)"
+},
+{
+"source_url": "https://www.greengardenkata.com/menu/index.html",
+"date": "2026-10-02",
+"value_thb": 200,
+"unit": "g",
+"strain_or_tier": "ER 1G Sativa · Medical flower Super Boof",
+"note": "shop site, per gram (auto)"
+},
+{
+"source_url": "https://www.greengardenkata.com/menu/index.html",
+"date": "2026-10-02",
+"value_thb": 180,
+"unit": "g",
+"strain_or_tier": "ativa · Medical flower Super Boof Cherry",
+"note": "shop site, per gram (auto)"
+},
+{
+"source_url": "https://www.greengardenkata.com/menu/index.html",
+"date": "2026-10-02",
+"value_thb": 100,
+"unit": "g",
+"strain_or_tier": " Sativa · Medical flower Super Boof Mini",
+"note": "shop site, per gram (auto)"
+},
+{
+"source_url": "https://www.greengardenkata.com/menu/index.html",
+"date": "2026-10-02",
+"value_thb": 100,
+"unit": "g",
+"strain_or_tier": "ativa · Medical flower Sweet Zombie Mini",
+"note": "shop site, per gram (auto)"
+},
+{
+"source_url": "https://www.greengardenkata.com/menu/index.html",
+"date": "2026-10-02",
+"value_thb": 220,
+"unit": "g",
+"strain_or_tier": "Sativa · Medical flower Tropicana Cherry",
+"note": "shop site, per gram (auto)"
+},
+{
+"source_url": "https://www.greengardenkata.com/menu/index.html",
+"date": "2026-10-02",
+"value_thb": 180,
+"unit": "g",
+"strain_or_tier": " 1G Indica · Medical flower Black Velvet",
+"note": "shop site, per gram (auto)"
+},
+{
+"source_url": "https://www.greengardenkata.com/menu/index.html",
+"date": "2026-10-02",
+"value_thb": 150,
+"unit": "g",
+"strain_or_tier": "Indica · Medical flower Chile Verde / EV",
+"note": "shop site, per gram (auto)"
+},
+{
+"source_url": "https://www.greengardenkata.com/menu/index.html",
+"date": "2026-10-02",
+"value_thb": 120,
+"unit": "g",
+"strain_or_tier": "1G Indica · Medical flower Critical Mini",
+"note": "shop site, per gram (auto)"
+},
+{
+"source_url": "https://www.greengardenkata.com/menu/index.html",
+"date": "2026-10-02",
+"value_thb": 200,
+"unit": "g",
+"strain_or_tier": "0 PER 1G Indica · Medical flower Dosidos",
+"note": "shop site, per gram (auto)"
+},
+{
+"source_url": "https://www.greengardenkata.com/menu/index.html",
+"date": "2026-10-02",
+"value_thb": 180,
+"unit": "g",
+"strain_or_tier": "Indica · Medical flower Grand Daddy / GH",
+"note": "shop site, per gram (auto)"
+},
+{
+"source_url": "https://www.greengardenkata.com/menu/index.html",
+"date": "2026-10-02",
+"value_thb": 200,
+"unit": "g",
+"strain_or_tier": "G Indica · Medical flower Grape Gasoline",
+"note": "shop site, per gram (auto)"
+},
+{
+"source_url": "https://www.greengardenkata.com/menu/index.html",
+"date": "2026-10-02",
+"value_thb": 220,
+"unit": "g",
+"strain_or_tier": "Indica · Medical flower Ice Cream Cake M",
+"note": "shop site, per gram (auto)"
+},
+{
+"source_url": "https://www.greengardenkata.com/menu/index.html",
+"date": "2026-10-02",
+"value_thb": 200,
+"unit": "g",
+"strain_or_tier": "R 1G Indica · Medical flower L.A. Banana",
+"note": "shop site, per gram (auto)"
+},
+{
+"source_url": "https://www.greengardenkata.com/menu/index.html",
+"date": "2026-10-02",
+"value_thb": 120,
+"unit": "g",
+"strain_or_tier": "ndica · Medical flower Velvet Glove Mini",
+"note": "shop site, per gram (auto)"
+},
+{
+"source_url": "https://www.greengardenkata.com/menu/index.html",
+"date": "2026-10-02",
+"value_thb": 150,
+"unit": "g",
+"strain_or_tier": "a · Medical flower White Strawberry / EV",
+"note": "shop site, per gram (auto)"
+},
+{
+"source_url": "https://www.greengardenkata.com/menu/index.html",
+"date": "2026-10-02",
+"value_thb": 200,
+"unit": "g",
+"strain_or_tier": " Hybrid · Medical flower Blackberry Oreo",
+"note": "shop site, per gram (auto)"
+},
+{
+"source_url": "https://www.greengardenkata.com/menu/index.html",
+"date": "2026-10-02",
+"value_thb": 150,
+"unit": "g",
+"strain_or_tier": "R 1G Hybrid · Medical flower Black Runtz",
+"note": "shop site, per gram (auto)"
+},
+{
+"source_url": "https://www.greengardenkata.com/menu/index.html",
+"date": "2026-10-02",
+"value_thb": 200,
+"unit": "g",
+"strain_or_tier": " Hybrid · Medical flower Cookies & Cream",
+"note": "shop site, per gram (auto)"
+},
+{
+"source_url": "https://www.greengardenkata.com/menu/index.html",
+"date": "2026-10-02",
+"value_thb": 150,
+"unit": "g",
+"strain_or_tier": "R 1G Hybrid · Medical flower London Cake",
+"note": "shop site, per gram (auto)"
+},
+{
+"source_url": "https://www.greengardenkata.com/menu/index.html",
+"date": "2026-10-02",
+"value_thb": 150,
+"unit": "g",
+"strain_or_tier": "ER 1G Hybrid · Medical flower Pink Runtz",
+"note": "shop site, per gram (auto)"
+},
+{
+"source_url": "https://www.greengardenkata.com/menu/index.html",
+"date": "2026-10-02",
+"value_thb": 180,
+"unit": "g",
+"strain_or_tier": "Hybrid · Medical flower Runtz Layer Cake",
+"note": "shop site, per gram (auto)"
+},
+{
+"source_url": "https://www.greengardenkata.com/menu/index.html",
+"date": "2026-10-02",
+"value_thb": 120,
+"unit": "g",
+"strain_or_tier": "brid · Medical flower Tangie Cookie / EV",
+"note": "shop site, per gram (auto)"
+},
+{
+"source_url": "https://www.greengardenkata.com/menu/index.html",
+"date": "2026-10-02",
+"value_thb": 220,
+"unit": "g",
+"strain_or_tier": " Hybrid · Medical flower White Truffle M",
+"note": "shop site, per gram (auto)"
+},
+{
+"source_url": "https://www.greengardenkata.com/menu/index.html",
+"date": "2026-10-02",
+"value_thb": 100,
+"unit": "g",
+"strain_or_tier": "e M ฿220 PER 1G CBD · Medical flower CBD",
+"note": "shop site, per gram (auto)"
+}
+],
+"doctor": [
+"Prescription required No on-site consumption Green Garden Medical cannabis · Phuket Menu + The shop Flower menu Medical info Gallery Directions WhatsApp",
+"prescription, or ask about an on-site video consultation through our partner clinic",
+"Prescription required for every purchase · No on-site consumption Get directions ↗ How it works ↓ 5"
+],
+"doctor_fee": null,
+"features": {
+"lounge_smoking_area": "and identification. 02 Patient welcome A comfortable indoor lounge and open-air terrace for questions and waiting. 03 Clear gu",
+"edibles": "ical flower Black Runtz ฿150 PER 1G Hybrid · Medical flower Cookies & Cream ฿200 PER 1G Hybrid · Medical flower London Cake ฿15"
+},
+"error": null
+},
+{
+"id": "ChIJHdTStNY7UDARczz-EckwifU",
+"site": "https://www.weedpatong.com/",
+"pages": [],
+"prices": [],
+"doctor": [],
+"doctor_fee": null,
+"features": {},
+"error": "<urlopen error Tunnel connection failed: 502 Bad Gateway>"
+},
+{
+"id": "ChIJOaetIoMlUDARrvpXGdqyWPA",
+"site": "https://weeden.club/our-shops/?utm_source=googlemap&utm_medium=website&utm_campaign=official_website",
+"pages": [
+"https://weeden.club/our-shops/?utm_source=googlemap&utm_medium=website&utm_campaign=official_website",
+"https://weeden.club/our-shops/",
+"https://weeden.club/our-shops/amp/",
+"https://weeden.club/"
+],
+"prices": [],
+"doctor": [
+"prescription meds, over-the-counter drugs, and even alcohol",
+"doctor first",
+"doctor before using cannabis"
+],
+"doctor_fee": null,
+"features": {
+"delivery": "al Media: Facebook , Instagram , Line , X Does WeedeN offer delivery? At the moment, we don’t offer delivery for online orders. ",
+"edibles": ". All rights reserved. Terms and conditions Brainlab We use cookies to deliver our services. By using our website, you agree to"
+},
+"error": null
+},
+{
+"id": "ChIJxxPJ6Xs5UDAR4L43DJYZb0k",
+"site": "https://weeden.club/our-shops/?utm_source=googlemap&utm_medium=website&utm_campaign=official_website",
+"pages": [
+"https://weeden.club/our-shops/?utm_source=googlemap&utm_medium=website&utm_campaign=official_website",
+"https://weeden.club/our-shops/",
+"https://weeden.club/our-shops/amp/",
+"https://weeden.club/"
+],
+"prices": [],
+"doctor": [
+"prescription meds, over-the-counter drugs, and even alcohol",
+"doctor first",
+"doctor before using cannabis"
+],
+"doctor_fee": null,
+"features": {
+"delivery": "al Media: Facebook , Instagram , Line , X Does WeedeN offer delivery? At the moment, we don’t offer delivery for online orders. ",
+"edibles": ". All rights reserved. Terms and conditions Brainlab We use cookies to deliver our services. By using our website, you agree to"
+},
+"error": null
+},
+{
+"id": "ChIJ3TSF6sk7UDARzQs68sOWa7s",
+"site": "https://www.grandmajazz.com/",
+"pages": [
+"https://www.grandmajazz.com/",
+"https://www.grandmajazz.com/products/"
+],
+"prices": [],
+"doctor": [],
+"doctor_fee": null,
+"features": {},
+"error": null
+},
+{
+"id": "ChIJr_fgkfAxUDARTpDuP-Vd9XQ",
+"site": "https://www.greenheadclinic.com/",
+"pages": [
+"https://www.greenheadclinic.com/",
+"https://www.greenheadclinic.com/about-us.php"
+],
+"prices": [],
+"doctor": [
+"Consultation Explore Our Services Abis Solutions WELCOME TO Greenhead Greenhead provides comprehensive cannabis and hemp solutions under one trusted bra",
+"medical consultation, premium cannabis products, business consulting, export services, or cultivation partnerships, our experienced team is here to support"
+],
+"doctor_fee": null,
+"features": {},
+"error": null
+},
+{
+"id": "ChIJZdEHrB07UDARZ4-0B_aYU1Q",
+"site": "https://www.greenheadclinic.com/",
+"pages": [
+"https://www.greenheadclinic.com/",
+"https://www.greenheadclinic.com/about-us.php"
+],
+"prices": [],
+"doctor": [
+"Consultation Explore Our Services Abis Solutions WELCOME TO Greenhead Greenhead provides comprehensive cannabis and hemp solutions under one trusted bra",
+"medical consultation, premium cannabis products, business consulting, export services, or cultivation partnerships, our experienced team is here to support"
+],
+"doctor_fee": null,
+"features": {},
+"error": null
+},
+{
+"id": "ChIJAS_RPvE7UDARhvJtzxgrXP0",
+"site": "https://lvcannabisboutique.com/",
+"pages": [
+"https://lvcannabisboutique.com/"
+],
+"prices": [],
+"doctor": [],
+"doctor_fee": null,
+"features": {
+"lounge_smoking_area": "t all the information about different strains, prices, etc. Smoking area inside and outside of the shop is available for the guests "
+},
+"error": null
+},
+{
+"id": "ChIJMzPVOhk7UDARm9ACRlWnLyU",
+"site": "https://www.extix.co/",
+"pages": [
+"https://www.extix.co/",
+"https://www.extix.co/strain",
+"https://www.extix.co/weed-delivery-phuket",
+"https://www.extix.co/store",
+"https://www.extix.co/faq"
+],
+"prices": [],
+"doctor": [
+"prescription",
+"prescription included · 5% cashback on every purchase · Future prescriptions included",
+"prescription, EXTIX can assist you with the process before dispatch"
+],
+"doctor_fee": null,
+"features": {
+"delivery": "IS - Premium Weed & Cannabis in Phuket | Extix Dispensary & Delivery EXTIX Premium Cannabis EX’PHILOSOPHY + Philosophy Standard ",
+"edibles": "OON PURP \"Full Moon High: Ignite Your Party\" I/H GIRL SCOUT COOKIES \"an Epic Journey\" I/H KRAKEN \"Delve in to the Depth of Myst",
+"card_payment": "cable delivery fees. You can pay securely via Thai QR code, credit card, or cash on delivery (available only in Zone 1). Note: Cash"
+},
+"error": null
+},
+{
+"id": "ChIJa3l4pPs5UDARIwOEhLzbqxY",
+"site": "https://lvcannabisboutique.com/",
+"pages": [
+"https://lvcannabisboutique.com/"
+],
+"prices": [],
+"doctor": [],
+"doctor_fee": null,
+"features": {
+"lounge_smoking_area": "t all the information about different strains, prices, etc. Smoking area inside and outside of the shop is available for the guests "
+},
+"error": null
+},
+{
+"id": "ChIJD2P2KAQ7UDARK6liHQWz75c",
+"site": "https://weeden.club/our-shops/?utm_source=googlemap&utm_medium=website&utm_campaign=official_website",
+"pages": [
+"https://weeden.club/our-shops/?utm_source=googlemap&utm_medium=website&utm_campaign=official_website",
+"https://weeden.club/our-shops/",
+"https://weeden.club/our-shops/amp/",
+"https://weeden.club/"
+],
+"prices": [],
+"doctor": [
+"prescription meds, over-the-counter drugs, and even alcohol",
+"doctor first",
+"doctor before using cannabis"
+],
+"doctor_fee": null,
+"features": {
+"delivery": "al Media: Facebook , Instagram , Line , X Does WeedeN offer delivery? At the moment, we don’t offer delivery for online orders. ",
+"edibles": ". All rights reserved. Terms and conditions Brainlab We use cookies to deliver our services. By using our website, you agree to"
+},
+"error": null
+},
+{
+"id": "ChIJ91w4PTUxUDAR0Rl_gjiIafw",
+"site": "https://green.gd/",
+"pages": [
+"https://green.gd/",
+"https://green.gd/menu",
+"https://green.gd/strains",
+"https://green.gd/weed"
+],
+"prices": [],
+"doctor": [
+"PRESCRIPTION Buds Gadgets Shop Our Weed Menu Find the rarest strains, from top-tier selections to the cheapest weed in Phuket",
+"prescription for the strong stuff"
+],
+"doctor_fee": null,
+"features": {
+"delivery": " Best Degen Weed Shop and Delivery - Green Ghost 🌿👻 Skip to content Menu Delivery Contact Bag ",
+"games_ps5_netflix": " Александр Кортес \" The best weed in Phuket! There's also a PlayStation! Chill-out zone! A very cozy place with a lovely hostess. \"",
+"card_payment": "ng you out, hyping you up, or even helping you cash in with crypto. From its psychoactive THC vibes to its mellow CBD glow, th"
+},
+"error": null
+},
+{
+"id": "ChIJ6xdn-_4lUDARzBtwjEZwSi4",
+"site": "https://www.extix.co/",
+"pages": [
+"https://www.extix.co/",
+"https://www.extix.co/strain",
+"https://www.extix.co/weed-delivery-phuket",
+"https://www.extix.co/store",
+"https://www.extix.co/faq"
+],
+"prices": [],
+"doctor": [
+"prescription",
+"prescription included · 5% cashback on every purchase · Future prescriptions included",
+"prescription, EXTIX can assist you with the process before dispatch"
+],
+"doctor_fee": null,
+"features": {
+"delivery": "IS - Premium Weed & Cannabis in Phuket | Extix Dispensary & Delivery EXTIX Premium Cannabis EX’PHILOSOPHY + Philosophy Standard ",
+"edibles": "OON PURP \"Full Moon High: Ignite Your Party\" I/H GIRL SCOUT COOKIES \"an Epic Journey\" I/H KRAKEN \"Delve in to the Depth of Myst",
+"card_payment": "cable delivery fees. You can pay securely via Thai QR code, credit card, or cash on delivery (available only in Zone 1). Note: Cash"
+},
+"error": null
+},
+{
+"id": "ChIJxe5oNMglUDARzwHbzNB0XS0",
+"site": "https://weeden.club/our-shops/?utm_source=googlemap&utm_medium=website&utm_campaign=official_website",
+"pages": [
+"https://weeden.club/our-shops/?utm_source=googlemap&utm_medium=website&utm_campaign=official_website",
+"https://weeden.club/our-shops/",
+"https://weeden.club/our-shops/amp/",
+"https://weeden.club/"
+],
+"prices": [],
+"doctor": [
+"prescription meds, over-the-counter drugs, and even alcohol",
+"doctor first",
+"doctor before using cannabis"
+],
+"doctor_fee": null,
+"features": {
+"delivery": "al Media: Facebook , Instagram , Line , X Does WeedeN offer delivery? At the moment, we don’t offer delivery for online orders. ",
+"edibles": ". All rights reserved. Terms and conditions Brainlab We use cookies to deliver our services. By using our website, you agree to"
+},
+"error": null
+},
+{
+"id": "ChIJ65mTFYQ5UDARHN_TQiVg0h8",
+"site": "https://weeden.club/our-shops/?utm_source=googlemap&utm_medium=website&utm_campaign=official_website",
+"pages": [
+"https://weeden.club/our-shops/?utm_source=googlemap&utm_medium=website&utm_campaign=official_website",
+"https://weeden.club/our-shops/",
+"https://weeden.club/our-shops/amp/",
+"https://weeden.club/"
+],
+"prices": [],
+"doctor": [
+"prescription meds, over-the-counter drugs, and even alcohol",
+"doctor first",
+"doctor before using cannabis"
+],
+"doctor_fee": null,
+"features": {
+"delivery": "al Media: Facebook , Instagram , Line , X Does WeedeN offer delivery? At the moment, we don’t offer delivery for online orders. ",
+"edibles": ". All rights reserved. Terms and conditions Brainlab We use cookies to deliver our services. By using our website, you agree to"
+},
+"error": null
+},
+{
+"id": "ChIJC83nkh87UDARAAQ3u1Ph8RY",
+"site": "https://goodstuffdelivery.com/",
+"pages": [
+"https://goodstuffdelivery.com/",
+"https://goodstuffdelivery.com/product-category/weed-delivery-phuket/",
+"https://goodstuffdelivery.com/product-category/packaging-weed/",
+"https://goodstuffdelivery.com/product-category/moonrock/",
+"https://goodstuffdelivery.com/product-category/cali-weed/",
+"https://goodstuffdelivery.com/product-category/pre-rolls-delivery-phuket/"
+],
+"prices": [
+{
+"source_url": "https://goodstuffdelivery.com/",
+"date": "2026-10-02",
+"value_thb": 200,
+"unit": "g",
+"strain_or_tier": "From",
+"note": "shop site, per gram (auto)"
+},
+{
+"source_url": "https://goodstuffdelivery.com/",
+"date": "2026-10-02",
+"value_thb": 150,
+"unit": "g",
+"strain_or_tier": "From",
+"note": "shop site, per gram (auto)"
+},
+{
+"source_url": "https://goodstuffdelivery.com/",
+"date": "2026-10-02",
+"value_thb": 180,
+"unit": "g",
+"strain_or_tier": "From",
+"note": "shop site, per gram (auto)"
+},
+{
+"source_url": "https://goodstuffdelivery.com/product-category/moonrock/",
+"date": "2026-10-02",
+"value_thb": 400,
+"unit": "g",
+"strain_or_tier": "From",
+"note": "shop site, per gram (auto)"
+},
+{
+"source_url": "https://goodstuffdelivery.com/product-category/cali-weed/",
+"date": "2026-10-02",
+"value_thb": 2600,
+"unit": "g",
+"strain_or_tier": "uantity - + Add to cart Gastopia THC 32%",
+"note": "shop site, per gram (auto)"
+}
+],
+"doctor": [
+"Prescription Blog Wholesale Cannabis Flower Delivery Phuket Packaging Weed Moonrock Delivery Phuket Cali Weed Delivery Cannabis Pre-Rolls Delivery in Ph",
+"Prescription Blog Wholesale EN RU FR 0 ฿ 0 Cart Weed Delivery in Phuket for Hotels, Villas and Condos Premium cannabis flower, ready-made pre-rolls and ",
+"Prescription Wholesale cannabis in Phuket Wholesale orders from 30 grams BESTSELLERS Best-selling products at Good Stuff Phuket Tropicana Cherry Sativa "
+],
+"doctor_fee": null,
+"features": {
+"delivery": " Weed Delivery Phuket | Fast Cannabis Delivery 30–60 Min Skip to content J"
+},
+"error": null
+},
+{
+"id": "ChIJ-Yv6hBA7UDARr_MpRTLgASo",
+"site": "https://weeden.club/our-shops/?utm_source=googlemap&utm_medium=website&utm_campaign=official_website",
+"pages": [
+"https://weeden.club/our-shops/?utm_source=googlemap&utm_medium=website&utm_campaign=official_website",
+"https://weeden.club/our-shops/",
+"https://weeden.club/our-shops/amp/",
+"https://weeden.club/"
+],
+"prices": [],
+"doctor": [
+"prescription meds, over-the-counter drugs, and even alcohol",
+"doctor first",
+"doctor before using cannabis"
+],
+"doctor_fee": null,
+"features": {
+"delivery": "al Media: Facebook , Instagram , Line , X Does WeedeN offer delivery? At the moment, we don’t offer delivery for online orders. ",
+"edibles": ". All rights reserved. Terms and conditions Brainlab We use cookies to deliver our services. By using our website, you agree to"
+},
+"error": null
+},
+{
+"id": "ChIJeTAaymExUDARZxAsqsHU_rM",
+"site": "https://weeden.club/our-shops/?utm_source=Google+map+profile&utm_medium=Gbp+website+link&utm_campaign=town_thalang_blue",
+"pages": [
+"https://weeden.club/our-shops/?utm_source=Google+map+profile&utm_medium=Gbp+website+link&utm_campaign=town_thalang_blue",
+"https://weeden.club/our-shops/",
+"https://weeden.club/our-shops/amp/",
+"https://weeden.club/"
+],
+"prices": [],
+"doctor": [
+"prescription meds, over-the-counter drugs, and even alcohol",
+"doctor first",
+"doctor before using cannabis"
+],
+"doctor_fee": null,
+"features": {
+"delivery": "al Media: Facebook , Instagram , Line , X Does WeedeN offer delivery? At the moment, we don’t offer delivery for online orders. ",
+"edibles": ". All rights reserved. Terms and conditions Brainlab We use cookies to deliver our services. By using our website, you agree to"
+},
+"error": null
+},
+{
+"id": "ChIJr8WMlIEvUDARXiaxUhNcWJU",
+"site": "https://www.ganjaboyz.store/",
+"pages": [
+"https://ganjaboyz.store/",
+"https://ganjaboyz.store/assets/react-ce_jzFTW.js",
+"https://ganjaboyz.store/assets/query-CVYn2oUA.js"
+],
+"prices": [],
+"doctor": [],
+"doctor_fee": null,
+"features": {},
+"error": null
+},
+{
+"id": "ChIJaQxIg6A7UDARsrFTg8l0DQc",
+"site": "https://thaigreenlab.net/our-stores/green-lab-patong-1/",
+"pages": [
+"https://thaigreenlab.net/our-stores/green-lab-patong-1/"
+],
+"prices": [],
+"doctor": [],
+"doctor_fee": null,
+"features": {},
+"error": null
+},
+{
+"id": "ChIJYfHOLiclUDAR-M5vlg1DngA",
+"site": "https://www.runfarmcannabisphuket.com/",
+"pages": [],
+"prices": [],
+"doctor": [],
+"doctor_fee": null,
+"features": {},
+"error": "<urlopen error Tunnel connection failed: 502 Bad Gateway>"
+},
+{
+"id": "ChIJA8vMyGwlUDARzqq6z4-FvIg",
+"site": "https://weeden.club/our-shops/?utm_source=googlemap&utm_medium=website&utm_campaign=official_website",
+"pages": [
+"https://weeden.club/our-shops/?utm_source=googlemap&utm_medium=website&utm_campaign=official_website",
+"https://weeden.club/our-shops/",
+"https://weeden.club/our-shops/amp/",
+"https://weeden.club/"
+],
+"prices": [],
+"doctor": [
+"prescription meds, over-the-counter drugs, and even alcohol",
+"doctor first",
+"doctor before using cannabis"
+],
+"doctor_fee": null,
+"features": {
+"delivery": "al Media: Facebook , Instagram , Line , X Does WeedeN offer delivery? At the moment, we don’t offer delivery for online orders. ",
+"edibles": ". All rights reserved. Terms and conditions Brainlab We use cookies to deliver our services. By using our website, you agree to"
+},
+"error": null
+},
+{
+"id": "ChIJD7utiX05UDARkbBLtc3IvF8",
+"site": "https://heylink.me/HKT420PhuketCannabis/",
+"pages": [],
+"prices": [],
+"doctor": [],
+"doctor_fee": null,
+"features": {},
+"error": "HTTP Error 403: Forbidden"
+},
+{
+"id": "ChIJzc2AB247UDARepviuBv-Eo8",
+"site": "https://chat.whatsapp.com/IqxaOrJTcHDEJYO9qPJqGq",
+"pages": [
+"https://chat.whatsapp.com/IqxaOrJTcHDEJYO9qPJqGq"
+],
+"prices": [],
+"doctor": [],
+"doctor_fee": null,
+"features": {
+"russian_staff": " Tiếng Việt Türkçe Ελληνικά български қазақ тілі македонски русский српски українська עברית اردو العربية فارسی मराठी हिन्दी ব"
+},
+"error": null
+},
+{
+"id": "ChIJqePv5eYlUDAR6H5_KBZv1EY",
+"site": "http://greenland420.com/",
+"pages": [
+"https://greenland420.com/",
+"https://greenland420.com/about-us",
+"https://greenland420.com/menu",
+"https://greenland420.com/medicinal-cannabis",
+"https://greenland420.com/cannabis-blog"
+],
+"prices": [],
+"doctor": [
+"prescription in order to legally purchase medical‑grade cannabis products",
+"doctors have incorporated cannabis into natural medicine for decades, long before modern legalization",
+"prescription under current Thai law"
+],
+"doctor_fee": null,
+"features": {
+"lounge_smoking_area": "ur dispensaries for top-grade strains and enjoy our Bar and Lounge. 100% licensed and safe. Join our membership for exclusive ",
+"delivery": "!NOW @ GREENLAND420 SHOPS Main Page About us Locations Menu Delivery Medicinal Cannabis Distribution Contact us Main Page About ",
+"edibles": "firm you are 20 years and older I CONFIRM This website uses cookies. We use cookies to analyze website traffic and optimize you"
+},
+"error": null
+},
+{
+"id": "ChIJhR6YAvQxUDARazCVHn9K2r0",
+"site": "http://www.clouds-social.com/",
+"pages": [
+"https://clouds-social.com/",
+"https://clouds-social.com/shop/easy-clouds-t-shirt/",
+"https://clouds-social.com/shop/small-logo-clouds-t-shirt/",
+"https://clouds-social.com/shop/flc10ud5-to-bcn/",
+"https://clouds-social.com/shop/c10ud5-to-vlc/"
+],
+"prices": [],
+"doctor": [],
+"doctor_fee": null,
+"features": {},
+"error": null
+},
+{
+"id": "ChIJR20DYxo7UDARrx2Z2z4x29U",
+"site": "https://dreamers.co.th/",
+"pages": [
+"https://dreamers.co.th/",
+"https://dreamers.co.th/flowers/",
+"https://dreamers.co.th/shop/",
+"https://dreamers.co.th/product-category/clothes/accessories/",
+"https://dreamers.co.th/product-category/sunglasses/",
+"https://dreamers.co.th/product-category/clothes/"
+],
+"prices": [
+{
+"source_url": "https://dreamers.co.th/",
+"date": "2026-10-02",
+"value_thb": 590,
+"unit": "g",
+"strain_or_tier": "From",
+"note": "shop site, per gram (auto)"
+},
+{
+"source_url": "https://dreamers.co.th/",
+"date": "2026-10-02",
+"value_thb": 591,
+"unit": "g",
+"strain_or_tier": "From",
+"note": "shop site, per gram (auto)"
+},
+{
+"source_url": "https://dreamers.co.th/",
+"date": "2026-10-02",
+"value_thb": 690,
+"unit": "g",
+"strain_or_tier": "From",
+"note": "shop site, per gram (auto)"
+}
+],
+"doctor": [],
+"doctor_fee": null,
+"features": {
+"lounge_smoking_area": "account Sign In / Register Home Flowers Shop Cafe Art Music Lounge On Air (+66 ) 093 506 4420 Wishlist Cart --> 0 Browse Categ"
+},
+"error": null
+},
+{
+"id": "ChIJ6Ul0uCMlUDARZhkKCPIzYkg",
+"site": "https://www.openlink.co/budsandbrews",
+"pages": [
+"https://www.openlink.co/budsandbrews"
+],
+"prices": [],
+"doctor": [],
+"doctor_fee": null,
+"features": {},
+"error": null
+},
+{
+"id": "ChIJ14FtTwAlUDARCeVah_seb3g",
+"site": "https://hazermates.com/",
+"pages": [
+"https://hazermates.com/"
+],
+"prices": [],
+"doctor": [],
+"doctor_fee": null,
+"features": {},
+"error": null
+},
+{
+"id": "ChIJn6-FW2A7UDAR4UEFMP1S2As",
+"site": "http://www.dankbkk.com/",
+"pages": [
+"https://dankbkk.com/",
+"https://dankbkk.com/cdn/shop/t/3/assets/base.css",
+"https://dankbkk.com/cdn/shop/t/3/assets/component-localization-form.css",
+"https://dankbkk.com/cdn/shop/t/3/assets/component-predictive-search.css",
+"https://dankbkk.com/cdn/shop/t/3/assets/component-slideshow.css",
+"https://dankbkk.com/cdn/shop/t/3/assets/component-slider.css"
+],
+"prices": [],
+"doctor": [],
+"doctor_fee": null,
+"features": {},
+"error": null
+},
+{
+"id": "ChIJe8f3HWIxUDARavOJ4eysLos",
+"site": "http://www.thongdee.com/",
+"pages": [],
+"prices": [],
+"doctor": [],
+"doctor_fee": null,
+"features": {},
+"error": "HTTP Error 522: Unknown"
+},
+{
+"id": "ChIJ9X7rz9YvUDARg6vzaO4doqE",
+"site": "https://green.gd/",
+"pages": [
+"https://green.gd/",
+"https://green.gd/menu",
+"https://green.gd/strains",
+"https://green.gd/weed"
+],
+"prices": [],
+"doctor": [
+"PRESCRIPTION Buds Gadgets Shop Our Weed Menu Find the rarest strains, from top-tier selections to the cheapest weed in Phuket",
+"prescription for the strong stuff"
+],
+"doctor_fee": null,
+"features": {
+"delivery": " Best Degen Weed Shop and Delivery - Green Ghost 🌿👻 Skip to content Menu Delivery Contact Bag ",
+"games_ps5_netflix": " Александр Кортес \" The best weed in Phuket! There's also a PlayStation! Chill-out zone! A very cozy place with a lovely hostess. \"",
+"card_payment": "ng you out, hyping you up, or even helping you cash in with crypto. From its psychoactive THC vibes to its mellow CBD glow, th"
+},
+"error": null
+},
+{
+"id": "ChIJu_f3_xg5UDARnR4Wrzn2EKo",
+"site": "http://www.beazyofficial.com/",
+"pages": [
+"https://beazyofficial.com/"
+],
+"prices": [],
+"doctor": [],
+"doctor_fee": null,
+"features": {},
+"error": null
+},
+{
+"id": "ChIJMetMEns7UDARdZdsDIhYKcc",
+"site": "https://www.patong-cannabis.com/",
+"pages": [
+"https://www.patong-cannabis.com/",
+"https://www.patong-cannabis.com/wp-content/cache/min/1/5b6f3af95770068477c5852273ae2fa4.css"
+],
+"prices": [],
+"doctor": [
+"Prescription is required to buy Cannabis",
+"prescription done at our shop within minutes, very easy"
+],
+"doctor_fee": null,
+"features": {
+"lounge_smoking_area": " Ranked 4th of all Thai Weed Shops by Weed.th People Choice Rooftop Smoking Lounge Terrasse with Playstation 5 and 100inch Proj",
+"edibles": "rains daily! You will also find a huge variety of edibles , gummies, chocolate, brownies, cookies, THC Lollipops and much more.",
+"games_ps5_netflix": " Weed.th People Choice Rooftop Smoking Lounge Terrasse with Playstation 5 and 100inch Projector Best Weed Shop in Patong - Premium ",
+"card_payment": "thod #payment div.payment_box .wc-credit-card-form-card-cvc.visa,#add_payment_method #payment div.payment_box .wc-credit-car"
+},
+"error": null
+},
+{
+"id": "ChIJvzj7vqwvUDARZSB5f4zcl9Y",
+"site": "https://growland.asia/",
+"pages": [
+"https://growland.asia/"
+],
+"prices": [],
+"doctor": [],
+"doctor_fee": null,
+"features": {},
+"error": null
+},
+{
+"id": "ChIJ83idmWcpUDARWOtNj9Crqdg",
+"site": "https://weeden.club/our-shops/?utm_source=googlemap&utm_medium=website&utm_campaign=official_website",
+"pages": [
+"https://weeden.club/our-shops/?utm_source=googlemap&utm_medium=website&utm_campaign=official_website",
+"https://weeden.club/our-shops/",
+"https://weeden.club/our-shops/amp/",
+"https://weeden.club/"
+],
+"prices": [],
+"doctor": [
+"prescription meds, over-the-counter drugs, and even alcohol",
+"doctor first",
+"doctor before using cannabis"
+],
+"doctor_fee": null,
+"features": {
+"delivery": "al Media: Facebook , Instagram , Line , X Does WeedeN offer delivery? At the moment, we don’t offer delivery for online orders. ",
+"edibles": ". All rights reserved. Terms and conditions Brainlab We use cookies to deliver our services. By using our website, you agree to"
+},
+"error": null
+},
+{
+"id": "ChIJPReZdiUlUDARkXeof-AApoo",
+"site": "https://thebush.shop/",
+"pages": [],
+"prices": [],
+"doctor": [],
+"doctor_fee": null,
+"features": {},
+"error": "<urlopen error Tunnel connection failed: 502 Bad Gateway>"
+},
+{
+"id": "ChIJbY1IaV0xUDARRKsZ-GZGj40",
+"site": "https://www.bnb-cannabis.com/",
+"pages": [
+"https://www.bnb-cannabis.com/",
+"https://www.bnb-cannabis.com/ru",
+"https://www.bnb-cannabis.com/web/assets/1/a5ffbeb/web.assets_frontend.min.css"
+],
+"prices": [],
+"doctor": [],
+"doctor_fee": null,
+"features": {
+"delivery": " Cannabis Delivery in Phuket | BnB Store Skip to Content Home Products Blog Ev",
+"russian_staff": "kip to Content Home Products Blog Events 0 0 English (US) | русский язык Sign in Contact Us 0 0 Home Products Blog Events Eng"
+},
+"error": null
+},
+{
+"id": "ChIJ50iE2_05UDARbAnXMSZejUg",
+"site": "https://www.extix.co/",
+"pages": [
+"https://www.extix.co/",
+"https://www.extix.co/strain",
+"https://www.extix.co/weed-delivery-phuket",
+"https://www.extix.co/store",
+"https://www.extix.co/faq"
+],
+"prices": [],
+"doctor": [
+"prescription",
+"prescription included · 5% cashback on every purchase · Future prescriptions included",
+"prescription, EXTIX can assist you with the process before dispatch"
+],
+"doctor_fee": null,
+"features": {
+"delivery": "IS - Premium Weed & Cannabis in Phuket | Extix Dispensary & Delivery EXTIX Premium Cannabis EX’PHILOSOPHY + Philosophy Standard ",
+"edibles": "OON PURP \"Full Moon High: Ignite Your Party\" I/H GIRL SCOUT COOKIES \"an Epic Journey\" I/H KRAKEN \"Delve in to the Depth of Myst",
+"card_payment": "cable delivery fees. You can pay securely via Thai QR code, credit card, or cash on delivery (available only in Zone 1). Note: Cash"
+},
+"error": null
+},
+{
+"id": "ChIJK-JrFSgpUDARYexrSPZ3c9M",
+"site": "https://ganjaburi.com/",
+"pages": [
+"https://ganjaburi.com/",
+"https://ganjaburi.com/about/",
+"https://ganjaburi.com/what-are-cannabis-terpenes/",
+"https://ganjaburi.com/creative-strains/",
+"https://ganjaburi.com/muay-thai-and-cannabis-in-thailand/",
+"https://ganjaburi.com/cannabis-dosages/"
+],
+"prices": [],
+"doctor": [
+"practitioners in the next round"
+],
+"doctor_fee": null,
+"features": {
+"edibles": " pain relief, and stress reduction Strains: GSC (Girl Scout Cookies), Original Glue, and Sour Diesel Caryophyllene is unique am",
+"delivery": "kle your taste buds, and even vape products. Each method of delivery comes with its own onset time and duration, allowing you to"
+},
+"error": null
+},
+{
+"id": "ChIJJ1zFk-MvUDARGRBXoAmMv_g",
+"site": "https://weeden.club/our-shops/?utm_source=googlemap&utm_medium=website&utm_campaign=official_website",
+"pages": [
+"https://weeden.club/our-shops/?utm_source=googlemap&utm_medium=website&utm_campaign=official_website",
+"https://weeden.club/our-shops/",
+"https://weeden.club/our-shops/amp/",
+"https://weeden.club/"
+],
+"prices": [],
+"doctor": [
+"prescription meds, over-the-counter drugs, and even alcohol",
+"doctor first",
+"doctor before using cannabis"
+],
+"doctor_fee": null,
+"features": {
+"delivery": "al Media: Facebook , Instagram , Line , X Does WeedeN offer delivery? At the moment, we don’t offer delivery for online orders. ",
+"edibles": ". All rights reserved. Terms and conditions Brainlab We use cookies to deliver our services. By using our website, you agree to"
+},
+"error": null
+},
+{
+"id": "ChIJK-vyWrYlUDARGSOPrD7fD78",
+"site": "https://weeden.club/our-shops/?utm_source=googlemap&utm_medium=website&utm_campaign=official_website",
+"pages": [
+"https://weeden.club/our-shops/?utm_source=googlemap&utm_medium=website&utm_campaign=official_website",
+"https://weeden.club/our-shops/",
+"https://weeden.club/our-shops/amp/",
+"https://weeden.club/"
+],
+"prices": [],
+"doctor": [
+"prescription meds, over-the-counter drugs, and even alcohol",
+"doctor first",
+"doctor before using cannabis"
+],
+"doctor_fee": null,
+"features": {
+"delivery": "al Media: Facebook , Instagram , Line , X Does WeedeN offer delivery? At the moment, we don’t offer delivery for online orders. ",
+"edibles": ". All rights reserved. Terms and conditions Brainlab We use cookies to deliver our services. By using our website, you agree to"
+},
+"error": null
+},
+{
+"id": "ChIJFblGgtU7UDARlgLdRCzTKy0",
+"site": "http://yslphuket.com/",
+"pages": [
+"https://yslphuket.com/",
+"https://yslphuket.com/flower-gallery"
+],
+"prices": [],
+"doctor": [
+"consultations in a compliant, educational setting",
+"consultations Guidance on legal requirements under Thai regulations Patient education and responsible-use information Age verification (20+) Frequently ",
+"consultations"
+],
+"doctor_fee": null,
+"features": {
+"card_payment": "? We accept cash (Thai Baht), major credit/debit cards, and PromptPay. Do I need a medical prescription? We operate in compliance"
+},
+"error": null
+},
+{
+"id": "ChIJb0eK3485UDARUJjJFVgEBss",
+"site": "http://www.budandbloom.shop/",
+"pages": [
+"https://www.budandbloom.shop/",
+"https://www.budandbloom.shop/style.css",
+"https://www.budandbloom.shop/th/",
+"https://www.budandbloom.shop/ru/"
+],
+"prices": [],
+"doctor": [
+"consultation",
+"consultation and carefully curated flower",
+"doctorCopy h2 em,"
+],
+"doctor_fee": null,
+"features": {},
+"error": null
+},
+{
+"id": "ChIJf4EEZzg7UDARwtdYf4-L5nc",
+"site": "https://www.bulldogphuket.com/",
+"pages": [],
+"prices": [],
+"doctor": [],
+"doctor_fee": null,
+"features": {},
+"error": "<urlopen error Tunnel connection failed: 502 Bad Gateway>"
+},
+{
+"id": "ChIJLTllqAMpUDARDHk5XPWI5c4",
+"site": "https://puffpuffpassplaza.com/",
+"pages": [
+"https://puffpuffpassplaza.com/"
+],
+"prices": [],
+"doctor": [],
+"doctor_fee": null,
+"features": {},
+"error": null
+},
+{
+"id": "ChIJ54OzZzIlUDAR0XwFZM4CQ5E",
+"site": "https://weeden.club/our-shops/?utm_source=googlemap&utm_medium=website&utm_campaign=official_website",
+"pages": [
+"https://weeden.club/our-shops/?utm_source=googlemap&utm_medium=website&utm_campaign=official_website",
+"https://weeden.club/our-shops/",
+"https://weeden.club/our-shops/amp/",
+"https://weeden.club/"
+],
+"prices": [],
+"doctor": [
+"prescription meds, over-the-counter drugs, and even alcohol",
+"doctor first",
+"doctor before using cannabis"
+],
+"doctor_fee": null,
+"features": {
+"delivery": "al Media: Facebook , Instagram , Line , X Does WeedeN offer delivery? At the moment, we don’t offer delivery for online orders. ",
+"edibles": ". All rights reserved. Terms and conditions Brainlab We use cookies to deliver our services. By using our website, you agree to"
+},
+"error": null
+},
+{
+"id": "ChIJ2emSUwQ7UDARzL_sWiVRC6A",
+"site": "https://weeden.club/our-shops/?utm_source=Google+map+profile&utm_medium=Gbp+website+link&utm_campaign=town_thalang_blue",
+"pages": [
+"https://weeden.club/our-shops/?utm_source=Google+map+profile&utm_medium=Gbp+website+link&utm_campaign=town_thalang_blue",
+"https://weeden.club/our-shops/",
+"https://weeden.club/our-shops/amp/",
+"https://weeden.club/"
+],
+"prices": [],
+"doctor": [
+"prescription meds, over-the-counter drugs, and even alcohol",
+"doctor first",
+"doctor before using cannabis"
+],
+"doctor_fee": null,
+"features": {
+"delivery": "al Media: Facebook , Instagram , Line , X Does WeedeN offer delivery? At the moment, we don’t offer delivery for online orders. ",
+"edibles": ". All rights reserved. Terms and conditions Brainlab We use cookies to deliver our services. By using our website, you agree to"
+},
+"error": null
+},
+{
+"id": "ChIJ4yCwN387UDARpcpu9srbcJg",
+"site": "https://alltimehighth.com/",
+"pages": [
+"https://alltimehighth.com/",
+"https://alltimehighth.com/menu/",
+"https://alltimehighth.com/2025/02/18/cannabis-and-mental-health-how-different-strains-can-help-copy/",
+"https://alltimehighth.com/2024/09/30/cannabis-and-mental-health-how-different-strains-can-help/",
+"https://alltimehighth.com/2024/09/30/cannabis-edibles-a-complete-guide-to-buying-and-usage/",
+"https://alltimehighth.com/2024/09/30/the-benefits-of-shopping-at-a-licensed-cannabis-dispensary/"
+],
+"prices": [],
+"doctor": [],
+"doctor_fee": null,
+"features": {
+"delivery": "chill~~ hay hay 2 years ago nice shop! close to BTS station delivery service ✅ make YOU have a GOOD DAY! S Cheung 2 years ago Ve",
+"edibles": "nnabidiol). These can come in a variety of forms, including gummies, chocolates, beverages, and baked goods. Edibles provide a "
+},
+"error": null
+},
+{
+"id": "ChIJaYrynqo5UDARuwUnDHOzFRg",
+"site": "https://qr.chillium.asia/",
+"pages": [
+"https://qr.chillium.asia/"
+],
+"prices": [],
+"doctor": [],
+"doctor_fee": null,
+"features": {},
+"error": null
+},
+{
+"id": "ChIJo01ZJYMlUDAReurvMRSluoE",
+"site": "https://weeden.club/our-shops/?utm_source=googlemap&utm_medium=website&utm_campaign=official_website",
+"pages": [
+"https://weeden.club/our-shops/?utm_source=googlemap&utm_medium=website&utm_campaign=official_website",
+"https://weeden.club/our-shops/",
+"https://weeden.club/our-shops/amp/",
+"https://weeden.club/"
+],
+"prices": [],
+"doctor": [
+"prescription meds, over-the-counter drugs, and even alcohol",
+"doctor first",
+"doctor before using cannabis"
+],
+"doctor_fee": null,
+"features": {
+"delivery": "al Media: Facebook , Instagram , Line , X Does WeedeN offer delivery? At the moment, we don’t offer delivery for online orders. ",
+"edibles": ". All rights reserved. Terms and conditions Brainlab We use cookies to deliver our services. By using our website, you agree to"
+},
+"error": null
+},
+{
+"id": "ChIJ146Oqt0lUDARyTurkih8Te8",
+"site": "https://www.extix.co/",
+"pages": [
+"https://www.extix.co/",
+"https://www.extix.co/strain",
+"https://www.extix.co/weed-delivery-phuket",
+"https://www.extix.co/store",
+"https://www.extix.co/faq"
+],
+"prices": [],
+"doctor": [
+"prescription",
+"prescription included · 5% cashback on every purchase · Future prescriptions included",
+"prescription, EXTIX can assist you with the process before dispatch"
+],
+"doctor_fee": null,
+"features": {
+"delivery": "IS - Premium Weed & Cannabis in Phuket | Extix Dispensary & Delivery EXTIX Premium Cannabis EX’PHILOSOPHY + Philosophy Standard ",
+"edibles": "OON PURP \"Full Moon High: Ignite Your Party\" I/H GIRL SCOUT COOKIES \"an Epic Journey\" I/H KRAKEN \"Delve in to the Depth of Myst",
+"card_payment": "cable delivery fees. You can pay securely via Thai QR code, credit card, or cash on delivery (available only in Zone 1). Note: Cash"
+},
+"error": null
+},
+{
+"id": "ChIJl56u24gpUDARrurQOa2ccIk",
+"site": "https://weeden.club/our-shops/?utm_source=googlemap&utm_medium=website&utm_campaign=official_website",
+"pages": [
+"https://weeden.club/our-shops/?utm_source=googlemap&utm_medium=website&utm_campaign=official_website",
+"https://weeden.club/our-shops/",
+"https://weeden.club/our-shops/amp/",
+"https://weeden.club/"
+],
+"prices": [],
+"doctor": [
+"prescription meds, over-the-counter drugs, and even alcohol",
+"doctor first",
+"doctor before using cannabis"
+],
+"doctor_fee": null,
+"features": {
+"delivery": "al Media: Facebook , Instagram , Line , X Does WeedeN offer delivery? At the moment, we don’t offer delivery for online orders. ",
+"edibles": ". All rights reserved. Terms and conditions Brainlab We use cookies to deliver our services. By using our website, you agree to"
+},
+"error": null
+},
+{
+"id": "ChIJU_d_V_I5UDARhrPK_FsVeX0",
+"site": "https://cannabro.taplink.ws/",
+"pages": [
+"https://cannabro.taplink.ws/"
+],
+"prices": [],
+"doctor": [],
+"doctor_fee": null,
+"features": {},
+"error": null
+},
+{
+"id": "ChIJE7-6r6kxUDARS2KWrZ4kZAE",
+"site": "https://weeden.club/our-shops/?utm_source=googlemap&utm_medium=website&utm_campaign=official_website",
+"pages": [
+"https://weeden.club/our-shops/?utm_source=googlemap&utm_medium=website&utm_campaign=official_website",
+"https://weeden.club/our-shops/",
+"https://weeden.club/our-shops/amp/",
+"https://weeden.club/"
+],
+"prices": [],
+"doctor": [
+"prescription meds, over-the-counter drugs, and even alcohol",
+"doctor first",
+"doctor before using cannabis"
+],
+"doctor_fee": null,
+"features": {
+"delivery": "al Media: Facebook , Instagram , Line , X Does WeedeN offer delivery? At the moment, we don’t offer delivery for online orders. ",
+"edibles": ". All rights reserved. Terms and conditions Brainlab We use cookies to deliver our services. By using our website, you agree to"
+},
+"error": null
+},
+{
+"id": "ChIJ6SDAsFw7UDAREC0y6vBTDY0",
+"site": "https://lvcannabisboutique.com/",
+"pages": [
+"https://lvcannabisboutique.com/"
+],
+"prices": [],
+"doctor": [],
+"doctor_fee": null,
+"features": {
+"lounge_smoking_area": "t all the information about different strains, prices, etc. Smoking area inside and outside of the shop is available for the guests "
+},
+"error": null
+},
+{
+"id": "ChIJQTYGvqo7UDARckVD61TzDIA",
+"site": "http://www.highland-patong.com/",
+"pages": [
+"https://linktr.ee/highland.patong",
+"https://linktr.ee/s/about/trust-center/report/",
+"https://linktr.ee/etengstore",
+"https://linktr.ee/features/shops",
+"https://linktr.ee/features/digital-products"
+],
+"prices": [],
+"doctor": [
+"consultations"
+],
+"doctor_fee": null,
+"features": {
+"edibles": "erms & Conditions Privacy Notice Cookie Notice Trust Center Cookies Preferences Transparency Report Law Enforcement Access Poli",
+"delivery": " list you own across every tool on your Linktree. On-demand delivery In their hands, right when they pay As soon as the payment ",
+"card_payment": " Step 1: Create your Linktree Sign up free at linktr.ee. No credit card needed. Step 2: Add a digital products link In your Linktre"
+},
+"error": null
+},
+{
+"id": "ChIJu4jzBQ43UDARzqk77y3kh54",
+"site": "https://www.extix.co/",
+"pages": [
+"https://www.extix.co/",
+"https://www.extix.co/strain",
+"https://www.extix.co/weed-delivery-phuket",
+"https://www.extix.co/store",
+"https://www.extix.co/faq"
+],
+"prices": [],
+"doctor": [
+"prescription",
+"prescription included · 5% cashback on every purchase · Future prescriptions included",
+"prescription, EXTIX can assist you with the process before dispatch"
+],
+"doctor_fee": null,
+"features": {
+"delivery": "IS - Premium Weed & Cannabis in Phuket | Extix Dispensary & Delivery EXTIX Premium Cannabis EX’PHILOSOPHY + Philosophy Standard ",
+"edibles": "OON PURP \"Full Moon High: Ignite Your Party\" I/H GIRL SCOUT COOKIES \"an Epic Journey\" I/H KRAKEN \"Delve in to the Depth of Myst",
+"card_payment": "cable delivery fees. You can pay securely via Thai QR code, credit card, or cash on delivery (available only in Zone 1). Note: Cash"
+},
+"error": null
+},
+{
+"id": "ChIJ_y_LyXElUDARs59B4-BblR4",
+"site": "https://www.greenheadclinic.com/",
+"pages": [
+"https://www.greenheadclinic.com/",
+"https://www.greenheadclinic.com/about-us.php"
+],
+"prices": [],
+"doctor": [
+"Consultation Explore Our Services Abis Solutions WELCOME TO Greenhead Greenhead provides comprehensive cannabis and hemp solutions under one trusted bra",
+"medical consultation, premium cannabis products, business consulting, export services, or cultivation partnerships, our experienced team is here to support"
+],
+"doctor_fee": null,
+"features": {},
+"error": null
+},
+{
+"id": "ChIJo5aZCpMlUDAR7XdOEn8S3RY",
+"site": "http://www.goodkushbar.com/",
+"pages": [
+"https://goodkushbar.com/",
+"https://goodkushbar.com/assets/catalog-CA_VDtq5.js",
+"https://goodkushbar.com/assets/products.functions-az-sFp-d.js",
+"https://goodkushbar.com/assets/faq-BI2kZBCr.js",
+"https://goodkushbar.com/assets/ProductCard-pw3T5h0f.js",
+"https://goodkushbar.com/menu"
+],
+"prices": [
+{
+"source_url": "https://goodkushbar.com/",
+"date": "2026-10-02",
+"value_thb": 200,
+"unit": "g",
+"strain_or_tier": "ross Phuket in under 1 hour. Flower from",
+"note": "shop site, per gram (auto)"
+},
+{
+"source_url": "https://goodkushbar.com/",
+"date": "2026-10-02",
+"value_thb": 900,
+"unit": "g",
+"strain_or_tier": "dLatti Major League Exotics · Cali Packs",
+"note": "shop site, per gram (auto)"
+},
+{
+"source_url": "https://goodkushbar.com/",
+"date": "2026-10-02",
+"value_thb": 200,
+"unit": "g",
+"strain_or_tier": "the pricing is honest — flower starts at",
+"note": "shop site, per gram (auto)"
+},
+{
+"source_url": "https://goodkushbar.com/",
+"date": "2026-10-02",
+"value_thb": 200,
+"unit": "g",
+"strain_or_tier": " Prices in Thai Baht on every size, from",
+"note": "shop site, per gram (auto)"
+}
+],
+"doctor": [],
+"doctor_fee": null,
+"features": {
+"lounge_smoking_area": " MICKEYZ ● GOOD KUSH BAR Powered By MickeyZ Home Menu Bar & Lounge Delivery The Bar Reviews Blog FAQ Contact Cart 0 Rated 4.9 ",
+"delivery": " Cannabis Bar & Weed Delivery in Karon, Phuket | Good Kush Bar KARON · PHUKET ● OPEN TUE–",
+"card_payment": "n and edibles, delivered island-wide in under an hour. Cash PromptPay Bank Transfer Any Crypto Quick Links Menu Bar & Lounge Thai",
+"games_ps5_netflix": "offee and smoothies — plus an air-conditioned lounge with a PlayStation and a big screen. See the bar & lounge → New strains, just ",
+"edibles": "ybrid Budget Buds ZorroZ House 1g 5g 10g ฿350 Add Tropicana Cookies Grown in Thailand House grown for Good Kush Bar hybrid Budg"
+},
+"error": null
+},
+{
+"id": "ChIJDf3fbSQxUDARZpeiDuFtfNY",
+"site": "http://greenland420.com/",
+"pages": [
+"https://greenland420.com/",
+"https://greenland420.com/about-us",
+"https://greenland420.com/menu",
+"https://greenland420.com/medicinal-cannabis",
+"https://greenland420.com/cannabis-blog"
+],
+"prices": [],
+"doctor": [
+"prescription in order to legally purchase medical‑grade cannabis products",
+"doctors have incorporated cannabis into natural medicine for decades, long before modern legalization",
+"prescription under current Thai law"
+],
+"doctor_fee": null,
+"features": {
+"lounge_smoking_area": "ur dispensaries for top-grade strains and enjoy our Bar and Lounge. 100% licensed and safe. Join our membership for exclusive ",
+"delivery": "!NOW @ GREENLAND420 SHOPS Main Page About us Locations Menu Delivery Medicinal Cannabis Distribution Contact us Main Page About ",
+"edibles": "firm you are 20 years and older I CONFIRM This website uses cookies. We use cookies to analyze website traffic and optimize you"
+},
+"error": null
+},
+{
+"id": "ChIJXYGO6HM5UDARn84rNef9kZY",
+"site": "https://weeden.club/our-shops/?utm_source=googlemap&utm_medium=website&utm_campaign=official_website",
+"pages": [
+"https://weeden.club/our-shops/?utm_source=googlemap&utm_medium=website&utm_campaign=official_website",
+"https://weeden.club/our-shops/",
+"https://weeden.club/our-shops/amp/",
+"https://weeden.club/"
+],
+"prices": [],
+"doctor": [
+"prescription meds, over-the-counter drugs, and even alcohol",
+"doctor first",
+"doctor before using cannabis"
+],
+"doctor_fee": null,
+"features": {
+"delivery": "al Media: Facebook , Instagram , Line , X Does WeedeN offer delivery? At the moment, we don’t offer delivery for online orders. ",
+"edibles": ". All rights reserved. Terms and conditions Brainlab We use cookies to deliver our services. By using our website, you agree to"
+},
+"error": null
+},
+{
+"id": "ChIJCzS37SQ7UDARQJw-nhVe1G4",
+"site": "https://weeden.club/our-shops/?utm_source=Google+map+profile&utm_medium=Gbp+website+link&utm_campaign=town_thalang_blue",
+"pages": [
+"https://weeden.club/our-shops/?utm_source=Google+map+profile&utm_medium=Gbp+website+link&utm_campaign=town_thalang_blue",
+"https://weeden.club/our-shops/",
+"https://weeden.club/our-shops/amp/",
+"https://weeden.club/"
+],
+"prices": [],
+"doctor": [
+"prescription meds, over-the-counter drugs, and even alcohol",
+"doctor first",
+"doctor before using cannabis"
+],
+"doctor_fee": null,
+"features": {
+"delivery": "al Media: Facebook , Instagram , Line , X Does WeedeN offer delivery? At the moment, we don’t offer delivery for online orders. ",
+"edibles": ". All rights reserved. Terms and conditions Brainlab We use cookies to deliver our services. By using our website, you agree to"
+},
+"error": null
+},
+{
+"id": "ChIJ2ydHTs87UDARpY-RQIg0bik",
+"site": "https://weeden.club/our-shops/?utm_source=googlemap&utm_medium=website&utm_campaign=official_website",
+"pages": [
+"https://weeden.club/our-shops/?utm_source=googlemap&utm_medium=website&utm_campaign=official_website",
+"https://weeden.club/our-shops/",
+"https://weeden.club/our-shops/amp/",
+"https://weeden.club/"
+],
+"prices": [],
+"doctor": [
+"prescription meds, over-the-counter drugs, and even alcohol",
+"doctor first",
+"doctor before using cannabis"
+],
+"doctor_fee": null,
+"features": {
+"delivery": "al Media: Facebook , Instagram , Line , X Does WeedeN offer delivery? At the moment, we don’t offer delivery for online orders. ",
+"edibles": ". All rights reserved. Terms and conditions Brainlab We use cookies to deliver our services. By using our website, you agree to"
+},
+"error": null
+},
+{
+"id": "ChIJH0txHj87UDAReAtQgtUL0UU",
+"site": "https://www.kingkush.co/",
+"pages": [],
+"prices": [],
+"doctor": [],
+"doctor_fee": null,
+"features": {},
+"error": "<urlopen error Tunnel connection failed: 502 Bad Gateway>"
+},
+{
+"id": "ChIJu3x-uWEpUDARK2Wb3DKIOF4",
+"site": "http://phukethigh.co/",
+"pages": [
+"https://phukethigh.co/",
+"https://phukethigh.co/products/",
+"https://phukethigh.co/about-us/",
+"https://phukethigh.co/product/100k/",
+"https://phukethigh.co/product/acaijelly/",
+"https://phukethigh.co/product/apples-banana/"
+],
+"prices": [
+{
+"source_url": "https://phukethigh.co/",
+"date": "2026-10-02",
+"value_thb": 900,
+"unit": "g",
+"strain_or_tier": "Phuket typically ranges from 200 to over",
+"note": "shop site, per gram (auto)"
+}
+],
+"doctor": [
+"Prescription Lasts September 24, 2026 Posted by Korn Jitboon 0 comments Most people find out about the prescription rule at the counter",
+"Prescription Lasts September 24, 2026 No Comments How Safe It Really Is to Buy Weed in Phuket September 17, 2026 No Comments Our Product Flower Edibles "
+],
+"doctor_fee": null,
+"features": {
+"lounge_smoking_area": "y within the confines of a private property or a designated smoking area. Can you smoke on the beach in Phuket? No, you cannot smoke",
+"delivery": "Spotlights , How-To Guides , Medical Cannabis , Phuket Weed Delivery How Budtenders Choose the Best Weed in Phuket September 3, ",
+"edibles": " Sold out Quick view The Runtz Sold out Quick view Mandarin Cookies Quick view Endgame RBX x Grandpa’s Stash Sold out Quick vie"
+},
+"error": null
+},
+{
+"id": "ChIJd21hIZ07UDARaL7mzoDeD4Q",
+"site": "https://www.amsterdamphuket.com/",
+"pages": [],
+"prices": [],
+"doctor": [],
+"doctor_fee": null,
+"features": {},
+"error": "<urlopen error Tunnel connection failed: 502 Bad Gateway>"
+},
+{
+"id": "ChIJed8Nvh4vUDARUb_i41EGNcU",
+"site": "http://www.lalalandphuket.com/?utm_source=google&utm_medium=wix_google_business_profile&utm_campaign=18406223481179786574",
+"pages": [
+"https://www.lalalandphuket.com/?utm_source=google&utm_medium=wix_google_business_profile&utm_campaign=18406223481179786574"
+],
+"prices": [],
+"doctor": [],
+"doctor_fee": null,
+"features": {},
+"error": null
+},
+{
+"id": "ChIJ2_Gna9MvUDARWPa8x81k7oA",
+"site": "https://weeden.club/our-shops/?utm_source=Google+map+profile&utm_medium=Gbp+website+link&utm_campaign=town_thalang_blue",
+"pages": [
+"https://weeden.club/our-shops/?utm_source=Google+map+profile&utm_medium=Gbp+website+link&utm_campaign=town_thalang_blue",
+"https://weeden.club/our-shops/",
+"https://weeden.club/our-shops/amp/",
+"https://weeden.club/"
+],
+"prices": [],
+"doctor": [
+"prescription meds, over-the-counter drugs, and even alcohol",
+"doctor first",
+"doctor before using cannabis"
+],
+"doctor_fee": null,
+"features": {
+"delivery": "al Media: Facebook , Instagram , Line , X Does WeedeN offer delivery? At the moment, we don’t offer delivery for online orders. ",
+"edibles": ". All rights reserved. Terms and conditions Brainlab We use cookies to deliver our services. By using our website, you agree to"
+},
+"error": null
+},
+{
+"id": "weeden_official:SsMxm5593hGceMuSA",
+"site": "https://weeden.club/our-shops/",
+"pages": [
+"https://weeden.club/our-shops/",
+"https://weeden.club/our-shops/amp/",
+"https://weeden.club/"
+],
+"prices": [],
+"doctor": [
+"prescription meds, over-the-counter drugs, and even alcohol",
+"doctor first",
+"doctor before using cannabis"
+],
+"doctor_fee": null,
+"features": {
+"delivery": "al Media: Facebook , Instagram , Line , X Does WeedeN offer delivery? At the moment, we don’t offer delivery for online orders. ",
+"edibles": ". All rights reserved. Terms and conditions Brainlab We use cookies to deliver our services. By using our website, you agree to"
+},
+"error": null
+}
+]

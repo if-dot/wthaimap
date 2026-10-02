@@ -222,3 +222,9 @@ img { max-width: 100%; }
 
 @media (prefers-reduced-motion: reduce) { * { transition: none !important; animation: none !important; } }
 .photos { display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 8px; margin: 12px 0 4px; }
+
+/* forms (corrections) */
+form.card label { display: grid; gap: 4px; font-size: 13px; color: var(--muted); }
+form.card input, form.card textarea, form.card select { background: var(--bg); border: 1px solid var(--line); border-radius: 8px; padding: 8px 10px; color: var(--ink, inherit); width: 100%; }
+form.card textarea { resize: vertical; }
+a.btn[aria-disabled="true"], button.btn:disabled { opacity: .5; pointer-events: none; }
