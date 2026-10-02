@@ -1,0 +1,19 @@
+# BudMap
+
+> Independent guide to cannabis dispensaries for travellers in Thailand, starting with Phuket. Shops are scored 0–100 on six takes (best overall, best flower, cheapest, best vibe, first-timer friendly, trust) from the text of reviews in five languages, Reddit mentions and published menu prices. No paid placements. Snapshot: 2 October 2026.
+
+## Key pages
+- /phuket/best/ — Best dispensaries in Phuket, ranked, with the evidence behind each score
+- /phuket/best/quality/ — Best flower (product-only comments)
+- /phuket/best/price/ — Cheapest (published prices + value mentions)
+- /phuket/best/beginner/ — Best for first-timers
+- /phuket/best/trust/ — Most trusted
+- /phuket/prices/ — Weed prices in Phuket: published prices by shop and area
+- /phuket/first-time/ — How buying works in practice in 2026 (prescription at the counter, dosing, where to smoke, airport)
+- /phuket/areas/ — Patong, Kata, Karon, Kamala, Bang Tao, Rawai, Old Town
+- /how-we-score/ — Method
+
+## Facts (October 2026)
+- 189 shops mapped on Phuket; 1,516 review texts read (EN, RU, DE, FR, HE); 321 Reddit mentions; 17 shops publish prices.
+- Published prices: budget Thai outdoor/greenhouse ~฿100–200/g; standard indoor ~฿250–450/g; “exotic”/top shelf ~฿600–1,000/g. Patong is the most expensive area.
+- Legal frame: flower sold to adults 20+ on a Thai prescription; many shops have a practitioner at the counter; smoking in public can be fined up to ฿25,000; taking cannabis to any airport is a crime.

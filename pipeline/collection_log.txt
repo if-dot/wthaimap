@@ -1,0 +1,22 @@
+Phuket cannabis dispensary dataset - collection log (2026-10-02)
+OUTPUT: shops.json (189 shops, all with coords). Supporting: cand.json, weeden_official.json, wl_revs.json, sites_prices.json, raw/ (Google-details JSON per place_id, raw/revlang/ per-language reviews, raw/wl/ Wanderlog HTML, raw/sites/ shop sites, raw/reddit/ posts+comment trees), dir/ (directory pages).
+
+WORKED
+- Wanderlog autocomplete API (/api/placesAPI/autocomplete/v2) as a Google Places proxy: ~1,800 keyword x grid-point queries (Patong, Kalim, Karon, Kata, Kamala, Bang Tao/Surin, Rawai/Nai Harn, Old Town, Chalong) + name-targeted queries for directory names -> 772 place_ids.
+- Wanderlog /api/placesAPI/getPlaceDetails/v2 (Google Place Details passthrough): name, coords, address, phone, website, hours, rating, count, business_status, up to 5 reviews. The `language` param returns DIFFERENT original-language reviews (ru/de/fr/he) -> up to ~25 distinct reviews per shop. Translated duplicates dropped.
+- Wanderlog /api/geo/extraExplorePagePlace/<place_id>: categories + TripAdvisor id/rating/count when Wanderlog has them (6 shops).
+- Relevance filter: Google category Cannabis store/club OR cannabis-keyword in name; bbox lat 7.74-8.06, lng 98.25-98.45; manual exclusions (hotels, Bud's Beach Bar, snus shop, address-only results). Greenhead clinics kept (cannabis clinics/prescription).
+- weeden.club/our-shops: 20 Phuket WeedeN locations; maps.app.goo.gl short links resolved to coords; 19 matched to Google places (<250 m), 1 added from official coords only.
+- Wanderlog place pages (/place/details/<id>): only 23 of 125 had SSR review data (others are "hidden" pages) -> extra review dates/texts merged.
+- Prices from shop sites: lalalandphuket.com/menu (per strain), greengardenkata.com/menu (per 1g), cannasupreme.com (850/g), green.gd (Green Ghost), goodstuffdelivery.com, goodkushbar.com, greenland420.com, dankbkk.com, phukethigh.co (market statement); cannabox (BEAZY Patong 300/g median, provisional); thailandnomads (Green House 250-500, GrowLand 500-800, undated). Plus review/Reddit text regex (baht near "gram/g").
+- Reddit via arctic-shift: subreddit listing (r/CannabisThailand ~2,500 posts back to 2022, r/phuket ~3,000 recent posts), filtered to Phuket/weed context, comment trees for top 150 threads. Shop matching: distinctive name -> 'name'; chains (WeedeN, Extix, Greenhead, Amsterdam, THC Club, Puff Puff Pass...) -> 'brand' or 'brand+area' (area word in text). Generic names excluded from matching.
+
+FAILED / LIMITS
+- TripAdvisor: 403 on .com/.co.uk/.ru/.de with browser UA -> no TA pages/reviews; tripadvisor field only from Wanderlog metadata (6 shops, url null).
+- pullpush.io: 429 / "no free scraping for agents". arctic-shift full-text search: timeouts -> used subreddit listing + local filter instead.
+- Proxy 502 (egress not allowed) for kingkush.co, thebush.shop, amsterdamphuket.com, bulldogphuket.com, runfarmcannabisphuket.com, weedpatong.com; extix.co 404; kingcannabis.store 402; cannsupreme.com DNS fail.
+- cannabox Phuket page lists only 7 shops, 1 price.
+- Google review counts/ratings are a snapshot of the Places API as of 2026-10-02; review sort = Google "most relevant" per language, not newest.
+- Features are regex over reviews/name/categories/hours (EN/RU/DE); absence = not mentioned, not "doesn't have". Evidence snippets included.
+- Area = coordinate boxes (Kata/Karon split at lat 7.8275); Chalong/Kathu/Thalang/Phuket-Town-outskirts -> "Other".
+- 5 shops not OPERATIONAL (1 permanently closed, 4 temporarily) are kept with business_status.
