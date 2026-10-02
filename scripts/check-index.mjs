@@ -5,13 +5,14 @@ const SITE = process.env.NEXT_PUBLIC_SITE_URL || "https://wthaimap.vercel.app";
 const LAUNCHED = process.env.NEXT_PUBLIC_LAUNCHED === "1";
 const out = ".next/server/app";
 if (!fs.existsSync(out)) { console.log("check-index: no .next/server/app, skipping"); process.exit(0); }
-const smFile = ["sitemap.xml.body", "sitemap.xml"].map(f => path.join(out, f)).find(f => fs.existsSync(f));
+const smFile = ["sitemap.xml.body", "sitemap.xml"].map(f => path.join(out, f)).find(f => fs.existsSync(f) && fs.statSync(f).isFile());
 if (!smFile) { console.log("check-index: sitemap body not found under", out, fs.readdirSync(out).filter(f => f.startsWith("sitemap")).join(",")); if (LAUNCHED) process.exit(1); process.exit(0); }
+console.log("check-index: sitemap from", path.relative(out, smFile));
 const sm = fs.readFileSync(smFile, "utf8");
 const urls = [...sm.matchAll(/<loc>(.*?)<\/loc>/g)].map(m => m[1]);
 let bad = 0, idx = 0, noidx = 0, seen = new Set();
 const walk = (d) => fs.readdirSync(d, { withFileTypes: true }).flatMap(e => e.isDirectory() ? walk(path.join(d, e.name)) : [path.join(d, e.name)]);
-const pages = walk(out).filter(f => f.endsWith(".html"));
+const pages = walk(out).filter(f => f.endsWith(".html") && fs.statSync(f).isFile());
 for (const f of pages) {
   const html = fs.readFileSync(f, "utf8");
   const rel = "/" + path.relative(out, f).replace(/\.html$/, "").replace(/(^|\/)index$/, "") ; const url = SITE + (rel === "/" ? "/" : rel.replace(/\/?$/, "/"));
