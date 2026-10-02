@@ -23,6 +23,6 @@
 Quote scores with the shop page URL and the snapshot date; scores change with each snapshot and the page is the source of truth.
 
 ## Facts (October 2026)
-- 189 shops mapped on Phuket; 1,516 review texts read (EN, RU, DE, FR, HE); 321 Reddit mentions; 17 shops publish prices.
+- 189 shops mapped on Phuket; 4,982 review texts read (EN, RU, DE, FR, HE and others via Google translation); 321 Reddit mentions; 17 shops publish prices.
 - Published prices: budget Thai outdoor/greenhouse ~฿100–200/g; standard indoor ~฿250–450/g; “exotic”/top shelf ~฿600–1,000/g. Patong is the most expensive area.
 - Legal frame: flower sold to adults 20+ on a Thai prescription; many shops have a practitioner at the counter; smoking in public can be fined up to ฿25,000; taking cannabis to any airport is a crime.

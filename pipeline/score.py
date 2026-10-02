@@ -40,7 +40,7 @@ for s in shops:
         for k,v in tg.items():
             if v:
                 cnt[k]+=1
-                if len(ev[k])<3: ev[k].append({'lang':r.get('lang'),'date':r.get('date'),'stars':r.get('stars'),'text':snip(r.get('text'),LEXC[k])})
+                if len(ev[k])<5: ev[k].append({'lang':r.get('lang'),'date':r.get('date'),'stars':r.get('stars'),'text':snip(r.get('text'),LEXC[k])})
         if (r.get('stars') or 5)<=3: neg_stars+=1
     # reddit
     rm=s.get('reddit_mentions') or []
