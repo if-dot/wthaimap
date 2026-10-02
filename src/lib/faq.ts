@@ -1,0 +1,12 @@
+import type { QA } from "@/components/Faq";
+import { SNAPSHOT } from "./data";
+
+export const FAQ_PHUKET: QA[] = [
+  { q: "Is weed legal in Phuket for tourists in 2026?", a: "Cannabis flower is sold legally in Thailand to adults 20+ for medical use on a Thai prescription. In practice many Phuket shops have a practitioner at the counter or by video who issues one in minutes for free or a small fee; foreign prescriptions and cards do not count. Smoking in public can be fined, and taking any cannabis to an airport is a criminal offence." },
+  { q: "How much does a gram of weed cost in Phuket?", a: `Published menus in ${SNAPSHOT.split(" ").slice(1).join(" ")} run from about ฿100–200 per gram for Thai outdoor and greenhouse flower, ฿250–450 for standard indoor, and ฿600–1,000 for anything sold as exotic or top shelf. Patong's beach strip is the most expensive; Rawai, Kata and Phuket Town publish the lowest prices.` },
+  { q: "Which Phuket dispensary has the best weed?", a: "Our Best flower ranking counts only review comments about the product (fresh, smell, sticky, strong versus dry, weak, mouldy), not comments about staff or décor. It changes as reviews come in; the current list is on the Best flower page and every score links to the quotes behind it." },
+  { q: "Do I need a prescription to buy weed in Phuket?", a: "Formally yes, a Thai prescription (PT33). Many shops issue one on the spot; reviewers report being asked for little beyond ID in most Patong, Kata and Karon shops. Shops marked ‘Doctor on site’ on BudMap are the ones reviewers mention issuing prescriptions." },
+  { q: "Where can I smoke weed in Phuket?", a: "Not in public: smoking on the street or beach can be treated as a public nuisance with a fine up to ฿25,000. Shops with a lounge or smoking area, and hotels that allow balcony use, are the practical answers. BudMap's Best vibe ranking and the Lounges page list shops with a place to sit and smoke." },
+  { q: "Can I take weed from Phuket to another Thai island or home?", a: "No. Domestic flights have spot checks, and hundreds of travellers have been arrested at home airports with Thai cannabis in their luggage. Finish it or leave it." },
+  { q: "Are Google ratings of Phuket dispensaries reliable?", a: "Almost every shop has 4.9–5.0, often with thousands of reviews, so the average no longer separates good from bad. BudMap reads the review text instead, counts what people say about the flower, prices and staff, and flags implausibly perfect ratings." },
+];

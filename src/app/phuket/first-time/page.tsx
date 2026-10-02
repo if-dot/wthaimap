@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { SNAPSHOT, ranked } from "@/lib/data";
 import { RankedRow } from "@/components/RankedRow";
+import Faq from "@/components/Faq";
+import { FAQ_PHUKET } from "@/lib/faq";
 
 export const metadata: Metadata = {
   title: "First time buying weed in Thailand: how it works in Phuket (2026)",
@@ -33,6 +35,7 @@ export default function Page() {
       </section>
       <div className="rows" style={{ marginTop: 10 }}>{top.map((s, i) => <RankedRow key={s.id} s={s} i={i} take="beginner" />)}</div>
       <p style={{ marginTop: 10 }}><Link href="/phuket/best/beginner/">Full first-timer ranking →</Link></p>
+      <Faq items={[FAQ_PHUKET[0], FAQ_PHUKET[3], FAQ_PHUKET[4], FAQ_PHUKET[5], { q: "How much weed should I buy the first time?", a: "One gram is plenty for a first evening; a 0.3–0.5 g joint is a sensible first dose with Thai indoor flower at 20%+ THC. Many shops sell 0.5 g or single pre-rolls." }]} />
     </main>
   );
 }

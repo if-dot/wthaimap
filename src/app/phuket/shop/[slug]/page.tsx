@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import { AREAS, LANG, SHOPS, SHOP_BY_SLUG, SNAPSHOT, TAKES, indexable, isThin, km, fmtKm, ranked } from "@/lib/data";
 import { EvidenceSections, Practical, ScoreBars, Why } from "@/components/ShopEvidence";
 import { RankedRow } from "@/components/RankedRow";
+import PlacePhotos from "@/components/PlacePhotos";
 
 export function generateStaticParams() { return SHOPS.map((s) => ({ slug: s.slug })); }
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
@@ -34,6 +35,7 @@ export default async function Page({ params }: { params: Promise<{ slug: string 
       <h1>{s.name}</h1>
       <p className="lead">{s.area}, Phuket · {s.rating ? `★${s.rating} from ${s.count.toLocaleString("en-US")} Google reviews` : "no Google rating"} · we read {s.n} review texts ({(s.langs || []).map((l) => LANG[l] || l).join(", ")}){isThin(s) ? " · thin data: treat scores as provisional" : ""}</p>
       {overallIsland && <div className="stat-row" style={{ margin: "6px 0 14px" }}><span><b>#{overallIsland.pos}</b>of {overallIsland.of} on Phuket (overall)</span>{overallArea && <span><b>#{overallArea.pos}</b>of {overallArea.of} in {s.area}</span>}<span><b>{Math.round((s.scores.conf || 0) * 100)}%</b>confidence</span></div>}
+      <PlacePhotos placeId={s.id} />
       <div className="grid2">
         <div className="card"><h3>Scores</h3><div style={{ marginTop: 10 }}><ScoreBars s={s} linkTakes /></div><p style={{ fontSize: 12, color: "var(--muted)", margin: "8px 0 0" }}>0–100. Built from review text, published prices and trust signals, not from the star average. <Link href="/how-we-score/">How we score.</Link></p></div>
         <div className="card"><h3>Why</h3><div style={{ marginTop: 8 }}><Why s={s} /></div></div>

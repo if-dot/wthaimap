@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Faq from "@/components/Faq";
+import { FAQ_PHUKET } from "@/lib/faq";
 import { AREAS, SHOPS, SNAPSHOT, ranked } from "@/lib/data";
 
 export const metadata: Metadata = {
@@ -52,6 +54,7 @@ export default function Page() {
           {byArea.map((r) => <tr key={r.a.slug}><td><Link href={`/phuket/areas/${r.a.slug}/`}>{r.a.label}</Link></td><td className="tnum">{r.n}</td><td className="tnum">{r.priced}</td><td className="tnum">{isFinite(r.min) ? `฿${Math.round(r.min)}` : "–"}</td><td className="tnum">{r.pp} : {r.pn}</td></tr>)}
         </tbody></table></div>
       </section>
+      <Faq items={[FAQ_PHUKET[1], FAQ_PHUKET[6], { q: "Why do most Phuket shops not publish prices?", a: "Advertising cannabis flower is formally restricted in Thailand, so most shops keep prices for the counter. Shops that do publish a menu are, in our data, among the cheaper ones; we show only prices with a source and a date." }]} />
     </main>
   );
 }

@@ -11,6 +11,10 @@
 - /phuket/prices/ — Weed prices in Phuket: published prices by shop and area
 - /phuket/first-time/ — How buying works in practice in 2026 (prescription at the counter, dosing, where to smoke, airport)
 - /phuket/areas/ — Patong, Kata, Karon, Kamala, Bang Tao, Rawai, Old Town
+- /phuket/lounges/ — Cannabis lounges and weed cafés in Phuket (where you can sit and smoke)
+- /phuket/strains/ — Strains on published Phuket menus with price per gram and source
+- /phuket/areas/patong/bangla-road/ — Bangla Road & Beach Road shops (also /rat-u-thit/, /nanai/)
+- /phuket/mushrooms/ — Psilocybin in Thailand: Category 5 narcotic, penalties, risks; no listings
 - /how-we-score/ — Method
 
 ## Facts (October 2026)

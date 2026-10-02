@@ -103,7 +103,7 @@ for s in shops:
         'scores':{'overall':overall,'quality':quality,'price':price,'atmosphere':atmosphere,'beginner':beginner,'trust':trust,'conf':round(conf,2)},
         'cnt':dict(cnt),'neg_stars':neg_stars,'ev':ev,
         'feat':{k:bool(v) for k,v in f.items()},'feat_ev':{k:[e.get('snippet','')[:140] for e in (v or [])[:1]] for k,v in fe.items()},
-        'price_med':price_med,'price_min':price_min,'price_src':[{'u':p.get('source_url'),'d':p.get('date'),'v':p.get('value_thb'),'s':p.get('strain') or p.get('tier') or p.get('note')} for p in pp[:6]],
+        'price_med':price_med,'price_min':price_min,'price_src':[{'u':p.get('source_url'),'d':p.get('date'),'v':p.get('value_thb'),'s':p.get('strain_or_tier') or p.get('note')} for p in pp[:40]],
         'reddit':{'n':len(rm),'pos':rpos,'neg':rneg,'ex':rev_ex},
     })
 json.dump(out,open(P+'scored.json','w'),ensure_ascii=False)

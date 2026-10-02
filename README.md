@@ -27,3 +27,9 @@ Development uses tile.openstreetmap.org (usage policy: light traffic only). Befo
 
 ## Routes
 `/` · `/phuket/` · `/phuket/map/` (client map, geolocation) · `/phuket/best/` and `/phuket/best/{quality|price|atmosphere|beginner|trust}/` · `/phuket/areas/` and `/phuket/areas/{area}/` · `/phuket/shop/{slug}/` (189; indexed only with ≥5 review texts) · `/phuket/prices/` · `/phuket/first-time/` · `/how-we-score/` · `/about/` · `/for-shops/` · `/sitemap.xml` · `/robots.txt` · `/llms.txt`
+
+## Pipeline, round 2
+- `pipeline/fetch_reviews_apify.py` — full review history per shop via Apify (`APIFY_TOKEN`), several languages, newest first → `data/phuket/raw_reviews/`.
+- `pipeline/merge_reviews.py` — folds full pulls into `shops.json`; then `score.py`.
+- `pipeline/snapshot_counts.py` — weekly rating/count snapshot → `review_snapshots.json` (seeded 2026-10-02). Review velocity will feed Trust once ≥2 snapshots exist.
+- Photos: `src/components/PlacePhotos.tsx` renders live Google Places photos when `NEXT_PUBLIC_GOOGLE_MAPS_KEY` is set (key restricted to the site's HTTP referrers; Places API (New) enabled).

@@ -18,6 +18,9 @@ export default function SiteFooter() {
             <li><Link href="/phuket/best/">Best dispensaries</Link></li>
             <li><Link href="/phuket/areas/">Areas</Link></li>
             <li><Link href="/phuket/prices/">Prices</Link></li>
+            <li><Link href="/phuket/lounges/">Lounges &amp; cafés</Link></li>
+            <li><Link href="/phuket/strains/">Strains on menus</Link></li>
+            <li><Link href="/phuket/mushrooms/">Mushrooms: law &amp; risks</Link></li>
             <li><Link href="/phuket/first-time/">First time in Thailand</Link></li>
           </ul>
         </div>

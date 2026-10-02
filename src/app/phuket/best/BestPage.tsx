@@ -1,6 +1,8 @@
 import Link from "next/link";
 import { SNAPSHOT, TAKES, TakeKey, ranked, stats } from "@/lib/data";
 import { RankedRow } from "@/components/RankedRow";
+import Faq from "@/components/Faq";
+import { FAQ_PHUKET } from "@/lib/faq";
 
 const INTRO: Record<TakeKey, string> = {
   overall: "A blend: 35% what reviewers say about the flower, 20% trust signals, and 15% each for price, vibe and how first-timers are treated. Scores shrink toward 50 when a shop has fewer than 12 review texts, so a thin sample cannot top the list on luck.",
@@ -36,6 +38,7 @@ export default function BestPage({ take }: { take: TakeKey }) {
       <div className="rows" style={{ marginTop: 14 }}>
         {rows.map((sh, i) => <RankedRow key={sh.id} s={sh} i={i} take={take} />)}
       </div>
+      {take === "overall" && <Faq items={FAQ_PHUKET} />}
     </main>
   );
 }

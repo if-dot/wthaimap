@@ -5,6 +5,7 @@ import L from "leaflet";
 import "leaflet/dist/leaflet.css";
 import { AREAS, FEATS, LANG, SHOPS, Shop, TAKES, TakeKey, fmtKm, isOpenStatus, isThin, km, scoreColor, shortName } from "@/lib/data";
 import { EvidenceSections, Practical, ScoreBars, Why } from "./ShopEvidence";
+import PlacePhotos from "./PlacePhotos";
 
 const NEAR: { id: string; label: string; lat?: number; lng?: number }[] = [
   { id: "", label: "Anywhere on Phuket" },
@@ -176,6 +177,7 @@ export default function MapApp({ initialTake = "overall", initialArea }: { initi
                 </div>
                 <button type="button" className="close" aria-label="Close" onClick={() => setSel(null)}>✕</button>
               </div>
+              <PlacePhotos placeId={selected.id} max={2} />
               <div style={{ marginTop: 12 }}><ScoreBars s={selected} /></div>
               <div style={{ fontSize: 11.5, color: "var(--muted)", marginTop: 6 }}>Confidence {Math.round((selected.scores.conf || 0) * 100)}% from {selected.n} texts{selected.n < 12 ? "; scores shrink toward 50 when data is thin" : ""}. <Link href={`/phuket/shop/${selected.slug}/`}>Full page →</Link></div>
               <div className="dsec"><h3>Why</h3><Why s={selected} /></div>

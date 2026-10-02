@@ -124,7 +124,7 @@ export function ranked(take: TakeKey, shops: Shop[] = SHOPS, includeThin = false
   return shops
     .filter((s) => (includeThin || !isThin(s)) && isOpenStatus(s))
     .filter((s) => s.scores[take] != null)
-    .sort((a, b) => (b.scores[take] as number) - (a.scores[take] as number));
+    .sort((a, b) => (b.scores[take] as number) - (a.scores[take] as number) || b.n - a.n);
 }
 
 export function km(a: { lat: number; lng: number }, b: { lat: number; lng: number }) {
@@ -196,4 +196,58 @@ export function stats() {
   const priced = SHOPS.filter((s) => s.price_med).length;
   const reddit = SHOPS.reduce((a, s) => a + (s.reddit?.n || 0), 0);
   return { shops: SHOPS.length, texts, indexed, priced, reddit };
+}
+
+/* ---------- v0.2: sub-areas, lounges, strains ---------- */
+
+export const SUBAREAS: { slug: string; parent: string; label: string; blurb: string; box: [number, number, number, number] }[] = [
+  { slug: "bangla-road", parent: "Patong", label: "Bangla Road & Beach Road", blurb: "The walking street and the beachfront block between Soi Bangla and Thaweewong Road. Highest footfall, highest prices, most late-night lounges, and the area inspectors visit first.", box: [7.887, 7.898, 98.291, 98.2985] },
+  { slug: "rat-u-thit", parent: "Patong", label: "Rat-U-Thit & Jungceylon", blurb: "The second road back from the beach, around Jungceylon mall and the Banzaan market. Still central, a notch calmer and cheaper than the beach strip.", box: [7.883, 7.9, 98.2985, 98.304] },
+  { slug: "nanai", parent: "Patong", label: "Nanai Road & the hills", blurb: "The third road and the slopes behind Patong: long-stay guesthouses, local trade, lower prices, fewer tourists.", box: [7.878, 7.908, 98.304, 98.315] },
+];
+
+export function inBox(s: { lat: number; lng: number }, b: [number, number, number, number]) {
+  return s.lat >= b[0] && s.lat <= b[1] && s.lng >= b[2] && s.lng <= b[3];
+}
+export function subareaShops(slug: string) {
+  const sa = SUBAREAS.find((x) => x.slug === slug);
+  if (!sa) return [];
+  return SHOPS.filter((s) => s.area === sa.parent && inBox(s, sa.box));
+}
+
+export function loungeShops() {
+  return SHOPS.filter((s) => s.feat?.lounge_smoking_area || s.feat?.games_ps5_netflix || s.feat?.rooftop);
+}
+
+export type StrainEntry = { strain: string; slug: string; shop: Shop; price: number; date: string | null; url: string | null };
+const STRIP = /^(buy|choose weight|stuff phuket|more about|filter|shop)\s+/i;
+export function cleanStrain(raw: string | null) {
+  if (!raw) return null;
+  let s = raw.replace(STRIP, "").replace(/\s+/g, " ").trim();
+  if (/^(range_low|range_high|from|market_low|market_high)$/i.test(s)) return null;
+  if (/review mention|site:|thailandnomads|reddit|per gram|starting/i.test(s)) return null;
+  if (s.length < 3 || s.length > 40 || s.split(" ").length > 4) return null;
+  s = s.replace(/\b(s|m|l)$/i, "").trim();
+  return s.replace(/\w\S*/g, (w) => (w.length > 2 && w === w.toUpperCase() ? w[0] + w.slice(1).toLowerCase() : w));
+}
+export function strainEntries(): StrainEntry[] {
+  const out: StrainEntry[] = [];
+  for (const s of SHOPS) {
+    for (const p of s.price_src || []) {
+      const name = cleanStrain(p.s);
+      if (!name || !p.v) continue;
+      out.push({ strain: name, slug: slugify(name), shop: s, price: p.v, date: p.d, url: p.u });
+    }
+  }
+  return out;
+}
+export function strainIndex() {
+  const m = new Map<string, StrainEntry[]>();
+  for (const e of strainEntries()) {
+    const k = e.slug;
+    if (!m.has(k)) m.set(k, []);
+    const arr = m.get(k)!;
+    if (!arr.find((x) => x.shop.id === e.shop.id)) arr.push(e);
+  }
+  return [...m.entries()].map(([slug, entries]) => ({ slug, name: entries[0].strain, entries: entries.sort((a, b) => a.price - b.price) })).sort((a, b) => b.entries.length - a.entries.length || a.name.localeCompare(b.name));
 }

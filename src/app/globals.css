@@ -221,3 +221,4 @@ img { max-width: 100%; }
 .leaflet-control-attribution { font-size: 10px !important; }
 
 @media (prefers-reduced-motion: reduce) { * { transition: none !important; animation: none !important; } }
+.photos { display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 8px; margin: 12px 0 4px; }
