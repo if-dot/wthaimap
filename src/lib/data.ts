@@ -35,6 +35,7 @@ export type Shop = {
   price_min: number | null;
   price_src: { u: string | null; d: string | null; v: number | null; s: string | null }[];
   reddit: { n: number; pos: number; neg: number; ex: { date: string | null; score: number; text: string; url: string }[] };
+  mcgis?: { license_no: string | null; status: string; expiry: string | null; name: string; dist_m: number; match: "strong" | "probable"; checked: string } | null;
   slug: string;
 };
 
@@ -189,6 +190,9 @@ export function trustFlags(s: Shop): Flag[] {
   if (s.neg_stars) f.push({ kind: "warn", text: `${s.neg_stars} review${s.neg_stars > 1 ? "s" : ""} rated 3★ or lower in our sample` });
   if (s.rating === 5 && s.count >= 800) f.push({ kind: "warn", text: `5.0 at ${s.count.toLocaleString("en-US")} Google reviews is unusually perfect; we weight it down` });
   if (s.status && s.status !== "OPERATIONAL") f.push({ kind: "bad", text: s.status.replace(/_/g, " ").toLowerCase() });
+  if (s.mcgis?.status === "active") f.push({ kind: "good", text: `Licence ${s.mcgis.match === "strong" ? "found" : "probably found"} in the public MC-GIS registry (${s.mcgis.license_no || "no number"}${s.mcgis.expiry ? `, valid to ${s.mcgis.expiry}` : ""})` });
+  else if (s.mcgis?.status) f.push({ kind: "bad", text: `MC-GIS registry lists this licence as ${s.mcgis.status}` });
+  else f.push({ kind: "warn", text: "No licence record matched within 300 m in the MC-GIS registry (names there are often the legal name; not proof of anything)" });
   if (s.reddit?.n)
     f.push({
       kind: s.reddit.neg > s.reddit.pos ? "warn" : "good",

@@ -127,6 +127,7 @@ export function Practical({ s }: { s: Shop }) {
       <span>Phone</span><span>{s.phone || "n/a"}</span>
       <span>Web</span><span>{s.web ? <a href={s.web} target="_blank" rel="noopener">{host}</a> : "n/a"}</span>
       <span>Map</span><span><a href={`https://www.google.com/maps/search/?api=1&query=${s.lat},${s.lng}`} target="_blank" rel="noopener">Open in Google Maps</a></span>
+      <span>Licence</span><span>{s.mcgis ? <>{s.mcgis.status === "active" ? "Active" : s.mcgis.status} in the Ministry of Public Health MC-GIS registry as “{s.mcgis.name}”{s.mcgis.license_no ? `, no. ${s.mcgis.license_no}` : ""}{s.mcgis.expiry ? `, expires ${s.mcgis.expiry}` : ""} ({s.mcgis.match === "strong" ? "name and location match" : "location matches, name differs"}; checked {s.mcgis.checked}). <a href="https://cannabis-gis.dtam.moph.go.th/" target="_blank" rel="noopener">Registry</a></> : <>No record matched within 300 m in the MC-GIS registry on our last check; the registry often lists the legal name, so this is not proof either way. <a href="https://cannabis-gis.dtam.moph.go.th/" target="_blank" rel="noopener">Check the registry</a></>}</span>
     </div>
   );
 }

@@ -88,6 +88,10 @@ for s in shops:
     if rating and rating<4.6: trust-=10
     if s.get('business_status') not in (None,'OPERATIONAL'): trust-=40
     trust += min(15, 3*rpos) - 6*rneg
+    mg=s.get('mcgis') or {}
+    if mg.get('status')=='active' and mg.get('match')=='strong': trust+=6   # licence found in the public MC-GIS registry
+    elif mg.get('status')=='active': trust+=3
+    elif mg.get('status') in ('closed','suspended'): trust-=30
     trust=max(0,min(100,round(trust)))
     overall=None
     parts=[x for x in [quality,price,atmosphere,beginner,trust] if x is not None]
@@ -100,6 +104,7 @@ for s in shops:
         'web':s.get('website'),'phone':s.get('phone'),'hours':hours[:7],'status':s.get('business_status'),
         'rating':rating,'count':count,'n':n,'langs':sorted(set(r.get('lang') or '?' for r in revs)),
         'weeden':bool(s.get('is_weeden')) and bool(s.get('weeden_official')),
+        'mcgis':s.get('mcgis'),
         'scores':{'overall':overall,'quality':quality,'price':price,'atmosphere':atmosphere,'beginner':beginner,'trust':trust,'conf':round(conf,2)},
         'cnt':dict(cnt),'neg_stars':neg_stars,'ev':ev,
         'feat':{k:bool(v) for k,v in f.items()},'feat_ev':{k:[e.get('snippet','')[:140] for e in (v or [])[:1]] for k,v in fe.items()},

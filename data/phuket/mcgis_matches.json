@@ -1,0 +1,1274 @@
+[
+{
+"shop": "𝗕𝗘𝗔𝗭𝗬® - Patong Cannabis Dispensary",
+"reg": null
+},
+{
+"shop": "420 Yellowe Cafe",
+"reg": null
+},
+{
+"shop": "Green Club_Phuket OldTown",
+"reg": null
+},
+{
+"shop": "Green Lab",
+"reg": null
+},
+{
+"shop": "Chronic Store | Cannabis Dispensary | Kata beach | 大麻之家 | 대마 | Best Weed Shop",
+"reg": "Chronic the dispensary",
+"dist": 21,
+"sim": 0.42,
+"status": "active",
+"exp": "2028-12-31",
+"lic": "8336600210",
+"match": "probable"
+},
+{
+"shop": "Bud Haven",
+"reg": "Bud Haven",
+"dist": 13,
+"sim": 1.0,
+"status": "active",
+"exp": "2028-12-31",
+"lic": "8336600128",
+"match": "strong"
+},
+{
+"shop": "Cannabis Whiskey",
+"reg": "Cannabis Whiskey",
+"dist": 0,
+"sim": 1.0,
+"status": "active",
+"exp": "2028-12-31",
+"lic": "8336900030",
+"match": "strong"
+},
+{
+"shop": "Caumeus Coffee Cafe - Cannabis & Game",
+"reg": null
+},
+{
+"shop": "Hazer Mates Old Town",
+"reg": null
+},
+{
+"shop": "Greenhead Clinic Patong",
+"reg": null
+},
+{
+"shop": "Sabai Sabai Dispensary 1",
+"reg": "SABAI SABAI",
+"dist": 9,
+"sim": 0.92,
+"status": "active",
+"exp": "2026-12-31",
+"lic": "8336700280",
+"match": "strong"
+},
+{
+"shop": "Cannabis shop Phuket (Phuakkan)",
+"reg": null
+},
+{
+"shop": "Phuket High Stoners",
+"reg": null
+},
+{
+"shop": "257 Cannabis Club",
+"reg": null
+},
+{
+"shop": "MR.WEED",
+"reg": null
+},
+{
+"shop": "Phuket High - Rawai Seafood Market",
+"reg": null
+},
+{
+"shop": "Cannasupreme Dispensary Phuket town",
+"reg": "Cannasupreme (Phuket Town)",
+"dist": 30,
+"sim": 1.0,
+"status": "active",
+"exp": "2027-12-31",
+"lic": "8336800137",
+"match": "strong"
+},
+{
+"shop": "Pinki Monkey Cannabis Coffee Shop - Beach Road",
+"reg": null
+},
+{
+"shop": "King Cannabis Phuket Rawai Dispensary",
+"reg": "KING CANNABIS PHUKET",
+"dist": 24,
+"sim": 1.0,
+"status": "active",
+"exp": "2027-12-31",
+"lic": "8336800103",
+"match": "strong"
+},
+{
+"shop": "Happy Weed Coffee Shop Patong",
+"reg": null
+},
+{
+"shop": "Stoner Cannabis Phuket",
+"reg": null
+},
+{
+"shop": "Cava weed",
+"reg": "Cava Weed",
+"dist": 19,
+"sim": 1.0,
+"status": "active",
+"exp": "2028-12-31",
+"lic": "ภก-3-1082/2566",
+"match": "strong"
+},
+{
+"shop": "Green Garden Kata | Cannabis Dispensary Weed Shop",
+"reg": "Green Garden Phuket Weed Shop",
+"dist": 24,
+"sim": 1.0,
+"status": "active",
+"exp": "2028-12-31",
+"lic": "ภก-3-1039/2566",
+"match": "strong"
+},
+{
+"shop": "Weed Patong",
+"reg": null
+},
+{
+"shop": "WEEDBERRIES KARON | Cannabis Dispensary Phuket | Weed Shop | Delivery | Wholesale",
+"reg": "WEEDBERRIES",
+"dist": 15,
+"sim": 0.54,
+"status": "active",
+"exp": "2027-12-31",
+"lic": "8336800302",
+"match": "probable"
+},
+{
+"shop": "Weeden",
+"reg": "WEEDEN (สาขา1)",
+"dist": 2,
+"sim": 0.67,
+"status": "active",
+"exp": "2026-12-31",
+"lic": "8336700085",
+"match": "probable"
+},
+{
+"shop": "Ganja Cannabis",
+"reg": null
+},
+{
+"shop": "Weeden",
+"reg": "CANNABIS FREEDOM WEEDEN",
+"dist": 76,
+"sim": 0.6,
+"status": "active",
+"exp": "2027-12-31",
+"lic": "8336800047",
+"match": "probable"
+},
+{
+"shop": "Grandma Jazz - Weed & Cannabis Cafe",
+"reg": null
+},
+{
+"shop": "GreenHead Clinic กรีนเฮด คลินิกการแพทย์แผนไทย",
+"reg": null
+},
+{
+"shop": "Greenhead Clinic Kamala",
+"reg": null
+},
+{
+"shop": "Kush morning sansabai patong",
+"reg": "Kush Morning Phuket",
+"dist": 173,
+"sim": 0.73,
+"status": "active",
+"exp": "2028-12-31",
+"lic": "8336900056",
+"match": "probable"
+},
+{
+"shop": "HIGH Andaman Cannabis Shop2",
+"reg": "HIGH ANDAMAN (ไฮ อันดามัน) สาขา 6",
+"dist": 23,
+"sim": 0.53,
+"status": "active",
+"exp": "2028-12-31",
+"lic": "ภก-3-1117/2566",
+"match": "probable"
+},
+{
+"shop": "420 Weed & Snus Club, Phuket",
+"reg": null
+},
+{
+"shop": "Kush Kingdom",
+"reg": null
+},
+{
+"shop": "Big Love – Weed & Cannabis Bar",
+"reg": null
+},
+{
+"shop": "EXTIX Premium Cannabis Dispensary & Weed Shop - Kamala Beach",
+"reg": null
+},
+{
+"shop": "Blue Bong Phuket Cannabis",
+"reg": null
+},
+{
+"shop": "THC CLUB 2 - Weed Marijuana Cannabis Shop Patong & Delivery - магазин марихуаны",
+"reg": null
+},
+{
+"shop": "Sabai Sabai Dispensary 2",
+"reg": null
+},
+{
+"shop": "LV Cannabis Boutique - Cannabis store in Bang Tao / Phuket",
+"reg": "LV CANNABIS BOUTIQUE",
+"dist": 11,
+"sim": 0.65,
+"status": "active",
+"exp": "2027-12-31",
+"lic": "8336800229",
+"match": "probable"
+},
+{
+"shop": "ฟาร์มกัญชา Cannabis420",
+"reg": null
+},
+{
+"shop": "Weeden",
+"reg": "Weeden(สาขา 2)",
+"dist": 26,
+"sim": 0.63,
+"status": "active",
+"exp": "2028-12-31",
+"lic": "8336600160",
+"match": "probable"
+},
+{
+"shop": "Lowlands Amsterdam Coffeeshop",
+"reg": "LOWLANDS",
+"dist": 204,
+"sim": 0.43,
+"status": "active",
+"exp": "2027-12-31",
+"lic": "ภก-3-119/2565",
+"match": "probable"
+},
+{
+"shop": "Crazy Monkey Bang Tao - weed shop",
+"reg": "CRAZY MONKEY",
+"dist": 0,
+"sim": 0.73,
+"status": "active",
+"exp": "2026-12-31",
+"lic": "8336700047",
+"match": "probable"
+},
+{
+"shop": "Green Ghost 🌿👻 Best Degen Weed Shop and Delivery",
+"reg": null
+},
+{
+"shop": "Smokey Monkey Cannabis Shop",
+"reg": null
+},
+{
+"shop": "EXTIX Premium Cannabis Dispensary & Weed Shop - Karon Beach",
+"reg": null
+},
+{
+"shop": "Weeden",
+"reg": "Weeden (สาขา Kata KataRoad)",
+"dist": 9,
+"sim": 0.46,
+"status": "active",
+"exp": "2027-12-31",
+"lic": "8336800217",
+"match": "probable"
+},
+{
+"shop": "Amsterdam Coffee Shop - Cannabis Shop",
+"reg": null
+},
+{
+"shop": "Weed The Grove Patong",
+"reg": "THE GROVE",
+"dist": 28,
+"sim": 1.0,
+"status": "active",
+"exp": "2026-12-31",
+"lic": "8336700111",
+"match": "strong"
+},
+{
+"shop": "Leaf Me Up",
+"reg": null
+},
+{
+"shop": "Weeden",
+"reg": "WEEDEN (สาขา Laguna)",
+"dist": 45,
+"sim": 0.5,
+"status": "active",
+"exp": "2026-12-31",
+"lic": "8336800123",
+"match": "probable"
+},
+{
+"shop": "Phuket Cannabis Lounge",
+"reg": null
+},
+{
+"shop": "Good Stuff Premium Organic Cannabis",
+"reg": "Good Stuff Premium Organic Cannabis",
+"dist": 0,
+"sim": 1.0,
+"status": "active",
+"exp": "2027-12-31",
+"lic": "8336800183",
+"match": "strong"
+},
+{
+"shop": "Weeden",
+"reg": "Weeden (สาขา5)",
+"dist": 27,
+"sim": 0.67,
+"status": "active",
+"exp": "2026-12-31",
+"lic": "8336700200",
+"match": "probable"
+},
+{
+"shop": "WEED STATION 124",
+"reg": "WEED STATION 124",
+"dist": 13,
+"sim": 1.0,
+"status": "active",
+"exp": "2026-12-31",
+"lic": "8336700312",
+"match": "strong"
+},
+{
+"shop": "Weeden",
+"reg": null
+},
+{
+"shop": "THE GANJA BOYZ",
+"reg": null
+},
+{
+"shop": "HEMPTON Dispensary @ Beyond Patong",
+"reg": null
+},
+{
+"shop": "Weed Store big buddha",
+"reg": "WEED STORE BIG BUDDHA",
+"dist": 17,
+"sim": 1.0,
+"status": "active",
+"exp": "2028-12-31",
+"lic": "ภก-3-1033/2566",
+"match": "strong"
+},
+{
+"shop": "Green Lab - Patong 1 - Soi Rat U Thit 200 Pee Road",
+"reg": "Green Lab Rat U Thit",
+"dist": 11,
+"sim": 0.68,
+"status": "active",
+"exp": "2026-12-31",
+"lic": "8336700309",
+"match": "probable"
+},
+{
+"shop": "Rawai cannabis shop",
+"reg": null
+},
+{
+"shop": "High Cloud (Patong)",
+"reg": null
+},
+{
+"shop": "BUDS BUNNY CANNABIS | Weed shop | Dispensary",
+"reg": "BUDS BUNNY",
+"dist": 49,
+"sim": 1.0,
+"status": "active",
+"exp": "2028-12-31",
+"lic": "8336900096",
+"match": "strong"
+},
+{
+"shop": "THC CLUB Kamala - Cannabis Marijuana Weed Shop & Delivery Phuket - магазин марихуаны",
+"reg": null
+},
+{
+"shop": "RUNFARM Cannabis Shop kata - Karon (Weed Shop)",
+"reg": null
+},
+{
+"shop": "Weeden",
+"reg": "WEEDEN (สาขา 4)",
+"dist": 97,
+"sim": 0.63,
+"status": "active",
+"exp": "2028-12-31",
+"lic": "8336600203",
+"match": "probable"
+},
+{
+"shop": "HKT420 Cannabis Phuket",
+"reg": null
+},
+{
+"shop": "Weed Hub Karon Organic",
+"reg": null
+},
+{
+"shop": "กัญชา 2 meet you",
+"reg": null
+},
+{
+"shop": "Greenland 420 - Phuket's best weed - Kata Shop - Lounge",
+"reg": null
+},
+{
+"shop": "Amsterdam Coffee Shop - Cannabis Shop",
+"reg": null
+},
+{
+"shop": "Clouds Phuket",
+"reg": null
+},
+{
+"shop": "Ganja House Cafe | Cannabis Dispensary Patong Phuket | 大麻之家 | Best Weed Shop",
+"reg": "Ganja House Patong",
+"dist": 0,
+"sim": 0.5,
+"status": "active",
+"exp": "2027-12-31",
+"lic": "8336800259",
+"match": "probable"
+},
+{
+"shop": "Dreamers Phuket - Cannabis Store and Cafe in Kamala, Phuket",
+"reg": "DREAMERS FAM",
+"dist": 96,
+"sim": 0.73,
+"status": "active",
+"exp": "2028-12-31",
+"lic": "ภก-3-1334/2566",
+"match": "probable"
+},
+{
+"shop": "Buds & Brews : Cannabis and Coffee",
+"reg": "Buds and Brews",
+"dist": 14,
+"sim": 0.74,
+"status": "active",
+"exp": "2027-12-31",
+"lic": "8336800182",
+"match": "probable"
+},
+{
+"shop": "Herbalist 420 Bang Tao - Weed Shop and Coffee Club",
+"reg": null
+},
+{
+"shop": "Hazer Mates Karon",
+"reg": null
+},
+{
+"shop": "DANK cannabis club ( Phuket,Patong)",
+"reg": null
+},
+{
+"shop": "Ganja Bro’s",
+"reg": "Ganja Bro's",
+"dist": 73,
+"sim": 1.0,
+"status": "active",
+"exp": "2028-12-31",
+"lic": "ภก-3-1348/2566",
+"match": "strong"
+},
+{
+"shop": "The Green Spot Patong , Cannabis Dispensary - Best Weed in Phuket",
+"reg": "The Green Spot",
+"dist": 18,
+"sim": 0.71,
+"status": "active",
+"exp": "2026-12-31",
+"lic": "8336700316",
+"match": "probable"
+},
+{
+"shop": "AmsterJam - Best Weed Phuket",
+"reg": null
+},
+{
+"shop": "High and Seek Phuket",
+"reg": "High and seek Phuket",
+"dist": 42,
+"sim": 1.0,
+"status": "active",
+"exp": "2027-12-31",
+"lic": "ภก-3-162/2565",
+"match": "strong"
+},
+{
+"shop": "Green Ghost 🌿👻 Best Degen Weed Shop and Delivery",
+"reg": "GREEN GHOST RAWAI",
+"dist": 14,
+"sim": 0.52,
+"status": "active",
+"exp": "2026-12-31",
+"lic": "8336700058",
+"match": "probable"
+},
+{
+"shop": "BEAZY® Bangtao - Cannabis Dispensary",
+"reg": "cannabis bangtao",
+"dist": 39,
+"sim": 0.7,
+"status": "active",
+"exp": "2026-12-31",
+"lic": "8336700016",
+"match": "probable"
+},
+{
+"shop": "Phuket Cannabis",
+"reg": null
+},
+{
+"shop": "Kush Paradise Snus Weed @Patong Cafe&Bar",
+"reg": "Kush Paradise Patong",
+"dist": 17,
+"sim": 0.74,
+"status": "active",
+"exp": "2028-12-31",
+"lic": "8336900017",
+"match": "probable"
+},
+{
+"shop": "420 Phuket Delivery",
+"reg": null
+},
+{
+"shop": "GrowLand weed dispensary, ganja",
+"reg": null
+},
+{
+"shop": "Craftzman Dispensary",
+"reg": "CRAFTZMAN",
+"dist": 106,
+"sim": 1.0,
+"status": "active",
+"exp": "2028-12-31",
+"lic": "ภก-3-1437/2566",
+"match": "strong"
+},
+{
+"shop": "Cannabis Moon1",
+"reg": null
+},
+{
+"shop": "420 cannabis M&N บางทอง",
+"reg": null
+},
+{
+"shop": "Weeden",
+"reg": "Weeden (สาขา 026 PK Rawai Wine)",
+"dist": 2,
+"sim": 0.41,
+"status": "active",
+"exp": "2027-12-31",
+"lic": "8336800261",
+"match": "probable"
+},
+{
+"shop": "Cannabis Island",
+"reg": "Cannabis Island",
+"dist": 3,
+"sim": 1.0,
+"status": "active",
+"exp": "2028-12-31",
+"lic": "8336600182",
+"match": "strong"
+},
+{
+"shop": "Pufftopia Express Cannabis Shop",
+"reg": "Pufftopia EXPRESS",
+"dist": 9,
+"sim": 1.0,
+"status": "active",
+"exp": "2027-12-31",
+"lic": "8336800197",
+"match": "strong"
+},
+{
+"shop": "Weed Store Patong",
+"reg": null
+},
+{
+"shop": "STONER HERB #8",
+"reg": "Stoner Herb 8",
+"dist": 1,
+"sim": 1.0,
+"status": "active",
+"exp": "2028-12-31",
+"lic": "8336600022",
+"match": "strong"
+},
+{
+"shop": "Cannabis shop | lounge | The Bush shop - Магазин марихуаны, лаундж",
+"reg": null
+},
+{
+"shop": "Bake & Blaze Kathu",
+"reg": "Blaze",
+"dist": 3,
+"sim": 0.48,
+"status": "active",
+"exp": "2027-12-31",
+"lic": "8336800270",
+"match": "probable"
+},
+{
+"shop": "Extix Premium Cannabis Dispensary & Weed shop - BangTao Beach",
+"reg": null
+},
+{
+"shop": "420 Route Surin Beach",
+"reg": "420 ROUTE SURIN BEACH",
+"dist": 71,
+"sim": 1.0,
+"status": "active",
+"exp": "2028-12-31",
+"lic": "ภก-3-1325/2566",
+"match": "strong"
+},
+{
+"shop": "HIGH CANNABIS",
+"reg": null
+},
+{
+"shop": "Herbalist 420 Patong - Weed Shop and Coffee Club",
+"reg": "Herbalist 420 Patong",
+"dist": 8,
+"sim": 0.79,
+"status": "active",
+"exp": "2026-12-31",
+"lic": "8336700325",
+"match": "strong"
+},
+{
+"shop": "BRAIN DEAD BEER & GANJA BAR",
+"reg": null
+},
+{
+"shop": "420 Canabis",
+"reg": null
+},
+{
+"shop": "THC Thai High Corporation - Cannabis & Coffee Shop",
+"reg": null
+},
+{
+"shop": "Cannabis Shop",
+"reg": null
+},
+{
+"shop": "Ganjaburi",
+"reg": null
+},
+{
+"shop": "420Malijuanas",
+"reg": null
+},
+{
+"shop": "Puff Puff Pass Kata Cannabis shop Wholesale & cali packs",
+"reg": null
+},
+{
+"shop": "Cannabis club Botanic",
+"reg": "Botanic cannabis club",
+"dist": 25,
+"sim": 1.0,
+"status": "active",
+"exp": "2027-12-31",
+"lic": "8336800147",
+"match": "strong"
+},
+{
+"shop": "420 Bar&Tattoo",
+"reg": null
+},
+{
+"shop": "Mary Jane",
+"reg": null
+},
+{
+"shop": "Weeden",
+"reg": "CANNABIS FREEDOM WEEDEN",
+"dist": 20,
+"sim": 0.6,
+"status": "active",
+"exp": "2027-12-31",
+"lic": "8336800043",
+"match": "probable"
+},
+{
+"shop": "Weeden",
+"reg": "WEEDEN (สาขา 4)",
+"dist": 5,
+"sim": 0.63,
+"status": "active",
+"exp": "2028-12-31",
+"lic": "8336600203",
+"match": "probable"
+},
+{
+"shop": "YSL | Weed/Cannabis Dispensary | Patong Phuket Thailand",
+"reg": null
+},
+{
+"shop": "Power Weed Phuket - Cannabis Store",
+"reg": "Power Weed",
+"dist": 9,
+"sim": 1.0,
+"status": "active",
+"exp": "2027-12-31",
+"lic": "8336800308",
+"match": "strong"
+},
+{
+"shop": "Dank Dynasty | Dank Drive | Wake N Bake | Best Cannabis Phuket | Wholesale | Retail | Delivery | Hemp Holistic | CBD",
+"reg": null
+},
+{
+"shop": "Dr Weed Patong",
+"reg": null
+},
+{
+"shop": "Bud and Bloom Bangtao - Medical Cannabis Dispensary",
+"reg": "Bud and Bloom",
+"dist": 128,
+"sim": 0.53,
+"status": "active",
+"exp": "2027-12-31",
+"lic": "8336800176",
+"match": "probable"
+},
+{
+"shop": "Cannabis Phuket Bulldog",
+"reg": null
+},
+{
+"shop": "Weed Games karon",
+"reg": null
+},
+{
+"shop": "Puff Puff Pass Plaza",
+"reg": "Puff Puff Pass Plaza",
+"dist": 4,
+"sim": 1.0,
+"status": "active",
+"exp": "2026-12-31",
+"lic": "8336700208",
+"match": "strong"
+},
+{
+"shop": "Bud Boutique Thailand",
+"reg": null
+},
+{
+"shop": "กัญชายิ้ม",
+"reg": "กัญชายิ้ม",
+"dist": 109,
+"sim": 1.0,
+"status": "active",
+"exp": "2027-12-31",
+"lic": "8336800045",
+"match": "strong"
+},
+{
+"shop": "Dank Dynasty HQ | Dank Drive | Wake N Bake | Best Cannabis Phuket | Wholesale | Retail | Delivery | Hemp Holistic | CBD",
+"reg": "Dank Dynasty HQ",
+"dist": 8,
+"sim": 0.29,
+"status": "active",
+"exp": "2027-12-31",
+"lic": "8336800281",
+"match": "probable"
+},
+{
+"shop": "cannabis boutique",
+"reg": "Cannabis Boutique",
+"dist": 7,
+"sim": 1.0,
+"status": "active",
+"exp": "2026-12-31",
+"lic": "8336700138",
+"match": "strong"
+},
+{
+"shop": "Weeden",
+"reg": "Weeden (สาขา Karon Patak 1)",
+"dist": 30,
+"sim": 0.48,
+"status": "active",
+"exp": "2027-12-31",
+"lic": "8336800314",
+"match": "probable"
+},
+{
+"shop": "Weeden",
+"reg": "Weeden (สาขา Patong Bangla)",
+"dist": 2,
+"sim": 0.5,
+"status": "active",
+"exp": "2027-12-31",
+"lic": "8336800160",
+"match": "probable"
+},
+{
+"shop": "Kush Paradise Weed Cannabis Shop Cafe&Bar",
+"reg": "Kush Paradise",
+"dist": 65,
+"sim": 0.87,
+"status": "active",
+"exp": "2028-12-31",
+"lic": "ภก-3-986/2566",
+"match": "strong"
+},
+{
+"shop": "GANJAFLY Dispensary",
+"reg": "Ganjafly Dispensary",
+"dist": 20,
+"sim": 1.0,
+"status": "active",
+"exp": "2028-12-31",
+"lic": "ภก-3-1074/2566",
+"match": "strong"
+},
+{
+"shop": "All Time High Cannabis Dispensary - Weed Lounge & Bar in Patong / Phuket",
+"reg": null
+},
+{
+"shop": "HIGH Andaman Cannabis Shop",
+"reg": "HIGH ANDAMAN (ไฮ อันดามัน)",
+"dist": 1,
+"sim": 0.67,
+"status": "active",
+"exp": "2027-12-31",
+"lic": "ภก-3-611/2565",
+"match": "probable"
+},
+{
+"shop": "Chillium",
+"reg": null
+},
+{
+"shop": "Weeden",
+"reg": "Weeden (สาขา Kata 2)",
+"dist": 26,
+"sim": 0.63,
+"status": "active",
+"exp": "2027-12-31",
+"lic": "8336800185",
+"match": "probable"
+},
+{
+"shop": "Pufftopia",
+"reg": "Pufftopia",
+"dist": 27,
+"sim": 1.0,
+"status": "active",
+"exp": "2026-12-31",
+"lic": "8336700127",
+"match": "strong"
+},
+{
+"shop": "Blow Green Leaf: Premium Cannabis Coffeeshop Patong Phuket THAILANDE",
+"reg": null
+},
+{
+"shop": "EXTIX Premium Cannabis Dispensary & Weed Shop - Kata Beach",
+"reg": null
+},
+{
+"shop": "Smoky bar Phuket cannabis shop (weed coffeeshop)",
+"reg": null
+},
+{
+"shop": "Green high shop",
+"reg": null
+},
+{
+"shop": "Juicy Buds Phuket",
+"reg": "Juicy Buds",
+"dist": 0,
+"sim": 1.0,
+"status": "active",
+"exp": "2027-12-31",
+"lic": "กรม-3-395/2565",
+"match": "strong"
+},
+{
+"shop": "WEED STORE CHALONG",
+"reg": "WEED STORE CHALONG",
+"dist": 27,
+"sim": 1.0,
+"status": "active",
+"exp": "2027-12-31",
+"lic": "8336800018",
+"match": "strong"
+},
+{
+"shop": "Happyman Botanics Cafe",
+"reg": null
+},
+{
+"shop": "Weeden",
+"reg": "Weeden (สาขา Rawai Beachfront 2)",
+"dist": 11,
+"sim": 0.4,
+"status": "active",
+"exp": "2027-12-31",
+"lic": "8336800174",
+"match": "probable"
+},
+{
+"shop": "Smokey Monkey Cannabis Shop",
+"reg": "Smokey monkey 2",
+"dist": 2,
+"sim": 0.93,
+"status": "active",
+"exp": "2027-12-31",
+"lic": "8336800073",
+"match": "strong"
+},
+{
+"shop": "Amsterdam Coffee Shop - Cannabis Shop",
+"reg": "AMSTERDAM COFFEE SHOP 3",
+"dist": 4,
+"sim": 0.94,
+"status": "active",
+"exp": "2026-12-31",
+"lic": "8336700246",
+"match": "strong"
+},
+{
+"shop": "Cannabo Surin & weed, and coffee, and wine",
+"reg": "CANNABO SURIN",
+"dist": 5,
+"sim": 0.68,
+"status": "active",
+"exp": "2028-12-31",
+"lic": "8336600148",
+"match": "strong"
+},
+{
+"shop": "Weeden",
+"reg": null
+},
+{
+"shop": "High Dood Phuket | Cannabis Cafe & Lounge",
+"reg": null
+},
+{
+"shop": "Cannabis World Phuket – Weed Store",
+"reg": "Cannabis World",
+"dist": 8,
+"sim": 1.0,
+"status": "active",
+"exp": "2026-12-31",
+"lic": "8336700174",
+"match": "strong"
+},
+{
+"shop": "Cannabis @ Phuket Store and Delivery กัญชาภูเก็ต",
+"reg": null
+},
+{
+"shop": "Puff Puff",
+"reg": null
+},
+{
+"shop": "WEED Club Tiger",
+"reg": null
+},
+{
+"shop": "Highman Dispensary Patong",
+"reg": "HIGHMAN CC CAFE",
+"dist": 8,
+"sim": 0.82,
+"status": "active",
+"exp": "2027-12-31",
+"lic": "8336800234",
+"match": "strong"
+},
+{
+"shop": "Highland Patong • Cannabis Lounge",
+"reg": null
+},
+{
+"shop": "EXTIX Premium Cannabis Dispensary & Weed Shop - Surin Beach",
+"reg": null
+},
+{
+"shop": "THC CLUB Patong - Weed Marijuana Cannabis Delivery Phuket - магазин марихуаны",
+"reg": null
+},
+{
+"shop": "Hotbox Phuket (Cannabis Dispensary)",
+"reg": "Hotbox Phuket",
+"dist": 12,
+"sim": 1.0,
+"status": "active",
+"exp": "2026-12-31",
+"lic": "8336700197",
+"match": "strong"
+},
+{
+"shop": "CANNABIS BAR",
+"reg": null
+},
+{
+"shop": "Weeden - Weed Corp",
+"reg": null
+},
+{
+"shop": "Kushty",
+"reg": null
+},
+{
+"shop": "Ganja House | Bangtao Cannabis Dispensary | 大麻之家 | Best Weed Shop",
+"reg": null
+},
+{
+"shop": "Greenhead Clinic - Kata Karon",
+"reg": null
+},
+{
+"shop": "Tropic Bloom - Cannabis/Weed Shop & Lounge",
+"reg": "Tropic Bloom",
+"dist": 0,
+"sim": 0.77,
+"status": "active",
+"exp": "2028-12-31",
+"lic": "8336600238",
+"match": "strong"
+},
+{
+"shop": "420 Route Kamala",
+"reg": "420 ROUTE KAMALA",
+"dist": 110,
+"sim": 1.0,
+"status": "active",
+"exp": "2027-12-31",
+"lic": "ภก-3-294/2565",
+"match": "strong"
+},
+{
+"shop": "High So Weed",
+"reg": "High So Weed",
+"dist": 40,
+"sim": 1.0,
+"status": "active",
+"exp": "2028-12-31",
+"lic": "ภก-3-1139/2566",
+"match": "strong"
+},
+{
+"shop": "Good Kush Bar - Cannabis Kata Beach",
+"reg": "Good Kush bar",
+"dist": 0,
+"sim": 0.81,
+"status": "active",
+"exp": "2028-12-31",
+"lic": "8336600215",
+"match": "strong"
+},
+{
+"shop": "HIGHMAN CC CAFE",
+"reg": "HIGHMAN CC CAFE",
+"dist": 8,
+"sim": 1.0,
+"status": "active",
+"exp": "2027-12-31",
+"lic": "8336800234",
+"match": "strong"
+},
+{
+"shop": "KUSH MORNING PHUKET branch 4",
+"reg": "Kush Morning Phuket 2",
+"dist": 11,
+"sim": 0.74,
+"status": "active",
+"exp": "2028-12-31",
+"lic": "8336900057",
+"match": "probable"
+},
+{
+"shop": "KUSH MORNING PHUKET",
+"reg": "Kush Paradise Patong",
+"dist": 29,
+"sim": 0.56,
+"status": "active",
+"exp": "2028-12-31",
+"lic": "8336900017",
+"match": "probable"
+},
+{
+"shop": "No.1 Cannabis",
+"reg": null
+},
+{
+"shop": "Greenland 420 - Phuket's best weed - Kata Shop - Weed2Go",
+"reg": null
+},
+{
+"shop": "Weeden",
+"reg": "WEEDEN (สาขา 6)",
+"dist": 0,
+"sim": 0.63,
+"status": "active",
+"exp": "2026-12-31",
+"lic": "8336700261",
+"match": "probable"
+},
+{
+"shop": "Weeden",
+"reg": "WEEDEN (สาขา SAINAMYEM)",
+"dist": 12,
+"sim": 0.44,
+"status": "active",
+"exp": "2027-12-31",
+"lic": "8336800107",
+"match": "probable"
+},
+{
+"shop": "Tiger Roller Cannabis Shop @ Phuket Town",
+"reg": null
+},
+{
+"shop": "Weeden",
+"reg": "Weeden (สาขา 046 PK Kamala MainRoad)",
+"dist": 2,
+"sim": 0.3,
+"status": "active",
+"exp": "2028-12-31",
+"lic": "8336900010",
+"match": "probable"
+},
+{
+"shop": "Weed Planet 77 (open 24/7)",
+"reg": "WEED PLANET 77",
+"dist": 21,
+"sim": 0.64,
+"status": "active",
+"exp": "2028-12-31",
+"lic": "8336600093",
+"match": "probable"
+},
+{
+"shop": "King Kush – 24 Hour Cannabis Shop | Delivery | Best Weed Dispensary | Patong | Phuket",
+"reg": "King kush",
+"dist": 0,
+"sim": 0.45,
+"status": "active",
+"exp": "2028-12-31",
+"lic": "8336900055",
+"match": "probable"
+},
+{
+"shop": "Green House",
+"reg": null
+},
+{
+"shop": "420 warehouse Chalong",
+"reg": null
+},
+{
+"shop": "Phuket High",
+"reg": null
+},
+{
+"shop": "Cannabis Shop AMSTERDAM Patong",
+"reg": null
+},
+{
+"shop": "LaLaLand Cannabis & weed Shop",
+"reg": "lalaland",
+"dist": 11,
+"sim": 1.0,
+"status": "active",
+"exp": "2027-12-31",
+"lic": "8336800030",
+"match": "strong"
+},
+{
+"shop": "Weeden",
+"reg": "Weeden สาขา 036 PK Chalong Soitaied",
+"dist": 64,
+"sim": 0.29,
+"status": "active",
+"exp": "2027-12-31",
+"lic": "8336800256",
+"match": "probable"
+},
+{
+"shop": "Jointed",
+"reg": "Jointed",
+"dist": 54,
+"sim": 1.0,
+"status": "active",
+"exp": "2028-12-31",
+"lic": "ภก-3-1291/2566",
+"match": "strong"
+},
+{
+"shop": "CANNABIS Moon & Dindan Betta karon PHUKET",
+"reg": null
+},
+{
+"shop": "Weed Vibes",
+"reg": "VIBES",
+"dist": 7,
+"sim": 1.0,
+"status": "active",
+"exp": "2028-12-31",
+"lic": "8336900099",
+"match": "strong"
+},
+{
+"shop": "Weeden Marina",
+"reg": "Weeden (สาขา Royal Phuket Marina)",
+"dist": 26,
+"sim": 0.7,
+"status": "active",
+"exp": "2027-12-31",
+"lic": "8336800138",
+"match": "probable"
+}
+]

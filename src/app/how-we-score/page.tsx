@@ -16,6 +16,7 @@ export default function Page() {
       <ul>
         <li><b>Reviews.</b> {s.texts.toLocaleString("en-US")} review texts across {s.shops} shops, pulled separately in English, Russian, German, French and Hebrew, because Google serves different reviews in each language. Google returns its “most relevant” reviews, not all of them, so a shop's sample is typically 5–25 texts. We show the count on every card.</li>
         <li><b>Reddit.</b> r/CannabisThailand and r/phuket, matched to shop names: {s.reddit} mentions. These are independent of the shop's own Google page and are weighted into Trust.</li>
+        <li><b>Licence registry.</b> The Department of Thai Traditional and Alternative Medicine publishes every licensed establishment with its licence number, status and expiry on the MC-GIS map. We match our shops to it by name and location (within 300 m) and show the result on each shop page; registry names are often the legal name, so a missing match is not evidence of anything.</li>
         <li><b>Published prices.</b> Online menus and price lists with a date and a source: {s.priced} shops. We do not estimate prices for shops that publish none.</li>
         <li><b>Listing facts.</b> Coordinates, hours, categories, website, open/closed status, Google rating and review count as observed on the snapshot date.</li>
       </ul>
@@ -27,7 +28,7 @@ export default function Page() {
         <li><b>Cheapest.</b> Published median price per gram, mapped so that ฿150 ≈ 95 and ฿800 ≈ 20, weighted 60%; the remaining 40% is the balance of cheap-or-fair against expensive in reviews. Shops with no published prices are scored on reviews alone.</li>
         <li><b>Best vibe.</b> 15 points each for a lounge or smoking area, games or Netflix, a rooftop and 24-hour opening, plus up to 60 for the share of reviews that talk about the atmosphere.</li>
         <li><b>First time.</b> First-time mentions (double weight) plus staff praise, minus double weight for rude-staff and trust complaints, scaled around 50; +8 if reviewers explicitly call the shop beginner-friendly.</li>
-        <li><b>Trust.</b> Starts at 70. −15 per scam/overcharge mention, −8 per review of 3★ or lower in our sample, −10 for a perfect 5.0 at 800+ reviews, −10 for a rating under 4.6, −40 if listed as closed; +3 per positive and −6 per negative Reddit mention (capped).</li>
+        <li><b>Trust.</b> Starts at 70. −15 per scam/overcharge mention, −8 per review of 3★ or lower in our sample, −10 for a perfect 5.0 at 800+ reviews, −10 for a rating under 4.6, −40 if listed as closed; +3 per positive and −6 per negative Reddit mention (capped); +6 when the shop's licence is found active in the Ministry of Public Health's public MC-GIS registry with a matching name and location (+3 if only the location matches), −30 if the registry lists it as closed or suspended.</li>
         <li><b>Best overall.</b> 35% flower, 20% trust, 15% each price, vibe and first time. Then shrunk toward 50 by confidence = texts/12, so a shop with three glowing reviews cannot top the island.</li>
       </ul>
       <h2>Thin data</h2>
