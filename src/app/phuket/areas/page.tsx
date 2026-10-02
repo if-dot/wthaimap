@@ -1,9 +1,10 @@
 import type { Metadata } from "next";
+import { meta } from "@/lib/seo";
 import Link from "next/link";
 import { AREAS, SHOPS, ranked } from "@/lib/data";
 import { RankedRow } from "@/components/RankedRow";
 
-export const metadata: Metadata = { title: "Phuket dispensaries by area", description: "Patong, Kata, Karon, Kamala, Bang Tao, Rawai and Phuket Old Town: how many shops, who scores best, what reviewers say." };
+export const metadata: Metadata = meta("/phuket/areas/", { title: "Phuket dispensaries by area", description: "Patong, Kata, Karon, Kamala, Bang Tao, Rawai and Phuket Old Town: how many shops, who scores best, what reviewers say." });
 
 export default function Page() {
   return (

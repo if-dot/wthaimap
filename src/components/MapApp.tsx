@@ -30,6 +30,13 @@ type Me = { lat: number; lng: number; label: string };
 
 export default function MapApp({ initialTake = "overall", initialArea }: { initialTake?: TakeKey; initialArea?: string }) {
   const [take, setTake] = useState<TakeKey>(initialTake);
+  useEffect(() => {
+    try {
+      const q = new URLSearchParams(window.location.search);
+      const t = q.get("take"); if (t && TAKES.some((x) => x.key === t)) setTake(t as TakeKey);
+      const a = q.get("area"); if (a) setAreas(new Set([a]));
+    } catch {}
+  }, []);
   const [me, setMe] = useState<Me | null>(null);
   const [areas, setAreas] = useState<Set<string>>(() => new Set(initialArea ? [initialArea] : []));
   const [feats, setFeats] = useState<Set<string>>(new Set());

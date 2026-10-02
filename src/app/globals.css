@@ -182,7 +182,7 @@ img { max-width: 100%; }
 .stat-row b { display: block; font-family: var(--display); font-size: 22px; color: var(--fg); font-variant-numeric: tabular-nums; }
 
 /* Map app */
-.mapapp { display: grid; grid-template-rows: auto minmax(0, 1fr); height: calc(100dvh - 56px - env(safe-area-inset-top, 0px)); min-height: 520px; }
+.mapapp { display: grid; grid-template-rows: auto minmax(0, 1fr); height: calc(100dvh - 56px - env(safe-area-inset-top, 0px)); min-height: 520px; max-height: 900px; }
 .mapctl { background: var(--surface); border-bottom: 1px solid var(--line); padding: 8px 16px; display: grid; gap: 8px; }
 .takes { display: flex; gap: 6px; overflow-x: auto; scrollbar-width: none; }
 .takes::-webkit-scrollbar { display: none; }

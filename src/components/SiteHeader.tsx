@@ -12,6 +12,7 @@ export default function SiteHeader() {
           <Link href="/phuket/lounges/">Lounges</Link>
           <Link href="/phuket/strains/">Strains</Link>
           <Link href="/phuket/first-time/">First time</Link>
+          <Link href="/thailand/is-weed-legal/">Is it legal?</Link>
           <Link href="/how-we-score/">How we score</Link>
           <Link href="/phuket/map/" className="cta">Map near me</Link>
         </nav>

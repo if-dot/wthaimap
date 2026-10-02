@@ -1,6 +1,10 @@
 import Link from "next/link";
+import type { Metadata } from "next";
+import { meta } from "@/lib/seo";
 import { AREAS, SNAPSHOT, TAKES, ranked, stats } from "@/lib/data";
 import { RankedRow } from "@/components/RankedRow";
+
+export const metadata: Metadata = meta("/", { title: "BudMap — where the good weed actually is (Phuket)", description: "Independent guide to Phuket dispensaries. 189 shops scored from 1,516 reviews in five languages: best flower, cheapest, best vibe, first-timer friendly, most trusted. No paid placements." });
 
 export default function Home() {
   const s = stats();

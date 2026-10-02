@@ -106,8 +106,20 @@ export function isThin(s: Shop) {
 export function isOpenStatus(s: Shop) {
   return !s.status || s.status === "OPERATIONAL";
 }
+/** Own words: unique words across quotes, Reddit excerpts and price sources — the text no other page has. */
+export function ownWords(s: Shop) {
+  const set = new Set<string>();
+  const add = (t: string | null | undefined) => (t || "").toLowerCase().split(/[^\p{L}\p{N}']+/u).forEach((w) => { if (w.length > 2) set.add(w); });
+  Object.values(s.ev || {}).forEach((arr) => arr.forEach((e) => add(e.text)));
+  (s.reddit?.ex || []).forEach((e) => add(e.text));
+  (s.price_src || []).forEach((p) => add(p.s));
+  add(s.address);
+  return set.size;
+}
+export const MIN_OWN_WORDS = 150;
+/** Index policy (lesson from PsyAccess/CannaEvidence): a card is indexed only with enough text of its own; others are noindex,follow and live inside lists. */
 export function indexable(s: Shop) {
-  return !isThin(s) && isOpenStatus(s);
+  return !isThin(s) && isOpenStatus(s) && s.n >= 8 && ownWords(s) >= MIN_OWN_WORDS;
 }
 
 export function scoreColor(v: number | null, thin = false) {

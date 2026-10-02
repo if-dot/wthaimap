@@ -1,11 +1,12 @@
 import type { Metadata } from "next";
+import { meta } from "@/lib/seo";
 import Link from "next/link";
 import Faq from "@/components/Faq";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = meta("/phuket/mushrooms/", {
   title: "Magic mushrooms in Phuket and Thailand: the law and the risks (2026)",
   description: "Psilocybin mushrooms are a Category 5 narcotic in Thailand with real prison terms. What 'mushroom shakes' on the islands are, what the police have done in 2025–2026, and how to stay safe. No listings; this is not a place to buy.",
-};
+});
 
 export default function Page() {
   return (

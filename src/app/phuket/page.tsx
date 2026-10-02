@@ -1,12 +1,13 @@
 import type { Metadata } from "next";
+import { meta } from "@/lib/seo";
 import Link from "next/link";
 import { AREAS, SNAPSHOT, TAKES, ranked, stats } from "@/lib/data";
 import { RankedRow } from "@/components/RankedRow";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = meta("/phuket/", {
   title: "Phuket cannabis guide: shops, prices, areas",
   description: "Independent guide to Phuket dispensaries: 189 shops scored from reviews in five languages, prices, areas from Patong to Rawai, and how buying works in practice.",
-};
+});
 
 export default function Page() {
   const s = stats();

@@ -1,14 +1,15 @@
 import type { Metadata } from "next";
+import { meta } from "@/lib/seo";
 import Link from "next/link";
 import { SNAPSHOT, ranked } from "@/lib/data";
 import { RankedRow } from "@/components/RankedRow";
 import Faq from "@/components/Faq";
 import { FAQ_PHUKET } from "@/lib/faq";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = meta("/phuket/first-time/", {
   title: "First time buying weed in Thailand: how it works in Phuket (2026)",
   description: "How buying cannabis actually works in Phuket in 2026: the prescription at the counter, what a gram costs, how much to take, where you can and cannot smoke, and the mistakes that get tourists arrested.",
-};
+});
 
 export default function Page() {
   const top = ranked("beginner").slice(0, 8);

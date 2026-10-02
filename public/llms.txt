@@ -14,8 +14,13 @@
 - /phuket/lounges/ — Cannabis lounges and weed cafés in Phuket (where you can sit and smoke)
 - /phuket/strains/ — Strains on published Phuket menus with price per gram and source
 - /phuket/areas/patong/bangla-road/ — Bangla Road & Beach Road shops (also /rat-u-thit/, /nanai/)
+- /thailand/is-weed-legal/ — Is weed legal in Thailand in 2026: what tourists can and cannot do, fines, airports, what changed in 2025–2026
 - /phuket/mushrooms/ — Psilocybin in Thailand: Category 5 narcotic, penalties, risks; no listings
 - /how-we-score/ — Method
+- /about/ — Who writes BudMap, independence, corrections policy
+
+## Citing
+Quote scores with the shop page URL and the snapshot date; scores change with each snapshot and the page is the source of truth.
 
 ## Facts (October 2026)
 - 189 shops mapped on Phuket; 1,516 review texts read (EN, RU, DE, FR, HE); 321 Reddit mentions; 17 shops publish prices.

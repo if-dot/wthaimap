@@ -1,12 +1,13 @@
 import type { Metadata } from "next";
+import { meta } from "@/lib/seo";
 import Link from "next/link";
 import { SNAPSHOT, strainIndex } from "@/lib/data";
 import Faq from "@/components/Faq";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = meta("/phuket/strains/", {
   title: `Weed strains on Phuket menus with prices (${SNAPSHOT.split(" ").slice(1).join(" ")})`,
   description: "Every strain we found on a published Phuket dispensary menu, with the price per gram, the shop and the date. Tropicana Cherry, Super Boof, Runtz and what the names actually mean in Thailand.",
-};
+});
 
 export default function Page() {
   const idx = strainIndex();

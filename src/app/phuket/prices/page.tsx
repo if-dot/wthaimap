@@ -1,13 +1,14 @@
 import type { Metadata } from "next";
+import { meta } from "@/lib/seo";
 import Link from "next/link";
 import Faq from "@/components/Faq";
 import { FAQ_PHUKET } from "@/lib/faq";
 import { AREAS, SHOPS, SNAPSHOT, ranked } from "@/lib/data";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = meta("/phuket/prices/", {
   title: `Weed prices in Phuket (${SNAPSHOT.split(" ").slice(1).join(" ")})`,
   description: "What a gram costs in Phuket right now: published menu prices by shop and area, what reviewers call fair or a rip-off, and how to read budget, mid and top-shelf tiers.",
-};
+});
 
 export default function Page() {
   const priced = SHOPS.filter((s) => s.price_med).sort((a, b) => (a.price_med as number) - (b.price_med as number));

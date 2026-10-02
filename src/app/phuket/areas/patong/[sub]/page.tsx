@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { meta } from "@/lib/seo";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { SNAPSHOT, SUBAREAS, TAKES, isThin, ranked, subareaShops } from "@/lib/data";
@@ -8,7 +9,7 @@ export function generateStaticParams() { return SUBAREAS.map((s) => ({ sub: s.sl
 export async function generateMetadata({ params }: { params: Promise<{ sub: string }> }): Promise<Metadata> {
   const { sub } = await params; const S = SUBAREAS.find((x) => x.slug === sub); if (!S) return {};
   const n = subareaShops(sub).length;
-  return { title: `Weed shops on ${S.label}, Patong (${SNAPSHOT.split(" ").slice(1).join(" ")})`, description: `${n} dispensaries around ${S.label} in Patong, Phuket, ranked from reviews: best flower, cheapest, best vibe, first-timer friendly. With the quotes behind every score.` };
+  return meta(`/phuket/areas/patong/${S.slug}/`, { title: `Weed shops on ${S.label}, Patong (${SNAPSHOT.split(" ").slice(1).join(" ")})`, description: `${n} dispensaries around ${S.label} in Patong, Phuket, ranked from reviews: best flower, cheapest, best vibe, first-timer friendly. With the quotes behind every score.` });
 }
 export default async function Page({ params }: { params: Promise<{ sub: string }> }) {
   const { sub } = await params; const S = SUBAREAS.find((x) => x.slug === sub); if (!S) notFound();

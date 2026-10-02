@@ -33,3 +33,11 @@ Development uses tile.openstreetmap.org (usage policy: light traffic only). Befo
 - `pipeline/merge_reviews.py` — folds full pulls into `shops.json`; then `score.py`.
 - `pipeline/snapshot_counts.py` — weekly rating/count snapshot → `review_snapshots.json` (seeded 2026-10-02). Review velocity will feed Trust once ≥2 snapshots exist.
 - Photos: `src/components/PlacePhotos.tsx` renders live Google Places photos when `NEXT_PUBLIC_GOOGLE_MAPS_KEY` is set (key restricted to the site's HTTP referrers; Places API (New) enabled).
+
+## SEO / GEO guardrails (v0.3)
+- Every page sets canonical + robots through `src/lib/seo.tsx`. Nothing is indexable until `NEXT_PUBLIC_LAUNCHED=1` (robots.txt also flips then).
+- Shop pages are indexed only when `indexable()` passes: not thin, open, ≥8 review texts, ≥150 own unique words from quotes/prices/address. Others stay noindex,follow (still linked, still useful). Strain pages need ≥2 menu entries.
+- `npm run build` runs `scripts/check-index.mjs`: every built page has a canonical equal to its URL; with the launch flag on, no noindex page may be in the sitemap and every sitemap URL must exist. Build fails otherwise.
+- Breadcrumb JSON-LD on area, shop and law pages; FAQPage on first-time and law pages; Store on shops; ItemList on rankings.
+- `public/llms.txt` lists the pages and facts an LLM should cite. Shop pages with score ≥60 carry a copyable "link to your score" snippet (inbound links from shops).
+- Analytics: set `NEXT_PUBLIC_PLAUSIBLE_DOMAIN` to load Plausible. IndexNow: put `<key>.txt` in `public/`, then `INDEXNOW_KEY=<key> npm run indexnow` after each deploy.

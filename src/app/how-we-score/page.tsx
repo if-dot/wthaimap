@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
+import { meta } from "@/lib/seo";
 import Link from "next/link";
 import { SNAPSHOT, stats } from "@/lib/data";
 
-export const metadata: Metadata = { title: "How we score", description: "How BudMap turns reviews in five languages, Reddit threads and published menus into six scores per shop, and what the scores cannot tell you." };
+export const metadata: Metadata = meta("/how-we-score/", { title: "How we score", description: "How BudMap turns reviews in five languages, Reddit threads and published menus into six scores per shop, and what the scores cannot tell you." });
 
 export default function Page() {
   const s = stats();

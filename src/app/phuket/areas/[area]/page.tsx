@@ -1,16 +1,19 @@
 import type { Metadata } from "next";
+import { meta } from "@/lib/seo";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { AREAS, SHOPS, SNAPSHOT, TAKES, areaBySlug, isThin, ranked } from "@/lib/data";
 import { RankedRow } from "@/components/RankedRow";
 import Faq from "@/components/Faq";
 import { SUBAREAS } from "@/lib/data";
+import { AREA_TEXT } from "@/lib/areaText";
+import { breadcrumbs, Ld } from "@/lib/seo";
 
 export function generateStaticParams() { return AREAS.map((a) => ({ area: a.slug })); }
 export async function generateMetadata({ params }: { params: Promise<{ area: string }> }): Promise<Metadata> {
   const { area } = await params; const A = areaBySlug(area); if (!A) return {};
   const n = SHOPS.filter((s) => s.area === A.key).length;
-  return { title: `Best dispensaries in ${A.label} (${SNAPSHOT.split(" ").slice(1).join(" ")})`, description: `${n} cannabis shops in ${A.label}, Phuket, ranked from reviews: best flower, cheapest, best vibe, first-timer friendly. With the quotes behind each score.` };
+  return meta(`/phuket/areas/${A.slug}/`, { title: `Best dispensaries in ${A.label} (${SNAPSHOT.split(" ").slice(1).join(" ")})`, description: `${n} cannabis shops in ${A.label}, Phuket, ranked from reviews: best flower, cheapest, best vibe, first-timer friendly. With the quotes behind each score.` });
 }
 
 export default async function Page({ params }: { params: Promise<{ area: string }> }) {
@@ -26,7 +29,9 @@ export default async function Page({ params }: { params: Promise<{ area: string 
     <main className="wrap page">
       <span className="eyebrow">Phuket · {A.label} · {SNAPSHOT}</span>
       <h1>Dispensaries in {A.label}</h1>
+      <Ld data={breadcrumbs([{ name: "BudMap", path: "/" }, { name: "Phuket", path: "/phuket/" }, { name: "Areas", path: "/phuket/areas/" }, { name: A.label, path: `/phuket/areas/${A.slug}/` }])} />
       <p className="lead">{A.blurb}</p>
+      <div className="prose">{(AREA_TEXT[A.key] || []).map((para, i) => <p key={i}>{para}</p>)}</div>
       <div className="stat-row" style={{ margin: "8px 0 16px" }}>
         <span><b>{all.length}</b>shops mapped</span>
         <span><b>{c.texts}</b>review texts</span>

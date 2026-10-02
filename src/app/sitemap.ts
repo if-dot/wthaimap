@@ -4,7 +4,7 @@ import { SITE } from "./layout";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const d = new Date(SNAPSHOT_ISO);
-  const fixed = ["/", "/phuket/", "/phuket/map/", "/phuket/best/", "/phuket/areas/", "/phuket/prices/", "/phuket/first-time/", "/phuket/lounges/", "/phuket/strains/", "/phuket/mushrooms/", "/how-we-score/", "/about/", "/for-shops/"];
+  const fixed = ["/", "/phuket/", "/phuket/map/", "/phuket/best/", "/phuket/areas/", "/phuket/prices/", "/phuket/first-time/", "/phuket/lounges/", "/phuket/strains/", "/phuket/mushrooms/", "/thailand/is-weed-legal/", "/how-we-score/", "/about/", "/for-shops/"];
   return [
     ...fixed.map((u) => ({ url: SITE + u, lastModified: d, changeFrequency: "weekly" as const, priority: u === "/" ? 1 : 0.8 })),
     ...TAKES.filter((t) => t.key !== "overall").map((t) => ({ url: `${SITE}/phuket/best/${t.key}/`, lastModified: d, changeFrequency: "weekly" as const, priority: 0.8 })),

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
+import { meta } from "@/lib/seo";
 import Link from "next/link";
-export const metadata: Metadata = { title: "For shops: fix your listing", description: "Correct hours, address or published prices on BudMap. No paid placement; scores cannot be bought or edited." };
+export const metadata: Metadata = meta("/for-shops/", { title: "For shops: fix your listing", description: "Correct hours, address or published prices on BudMap. No paid placement; scores cannot be bought or edited." });
 export default function Page() {
   return (
     <main className="wrap page prose">

@@ -1,13 +1,14 @@
 import type { Metadata } from "next";
+import { meta } from "@/lib/seo";
 import Link from "next/link";
 import { FEATS, SNAPSHOT, loungeShops, ranked } from "@/lib/data";
 import { RankedRow } from "@/components/RankedRow";
 import Faq from "@/components/Faq";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = meta("/phuket/lounges/", {
   title: `Cannabis lounges and weed cafés in Phuket (${SNAPSHOT.split(" ").slice(1).join(" ")})`,
   description: "Phuket shops where you can actually sit and smoke: lounges, smoking areas, games consoles, rooftops and 24-hour places, ranked by what reviewers say, with the flower score next to the vibe score.",
-};
+});
 
 export default function Page() {
   const all = loungeShops();
